@@ -1,0 +1,19 @@
+# Geometry-only Nav2 parameter overlay, metres. Merge into the full Nav2 config.
+# User drawing: 690 mm long x 570 mm wide; TOP-VIEW BOTTOM IS FRONT (+base X).
+# Base origin: envelope centre at ground; +X forward, +Y left, +Z up.
+# Nominal physical bounds: X +/-0.345, Y +/-0.285.
+# Chosen planning allowance: 0.050 m per side -> 0.790 x 0.670 m padded bounds.
+# Keep physical vertices unpadded: Nav2 applies footprint_padding once.
+# This does not configure a speed-dependent stopping zone or launch motion.
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      robot_base_frame: base_link
+      footprint: "[[0.345, 0.285], [0.345, -0.285], [-0.345, -0.285], [-0.345, 0.285]]"
+      footprint_padding: 0.05
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      robot_base_frame: base_link
+      footprint: "[[0.345, 0.285], [0.345, -0.285], [-0.345, -0.285], [-0.345, 0.285]]"
+      footprint_padding: 0.05

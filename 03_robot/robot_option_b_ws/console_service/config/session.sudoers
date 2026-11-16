@@ -1,0 +1,4 @@
+# Exact service lists only. No shell, arbitrary unit, CAN command or root UI.
+dase-orinnx ALL=(root) NOPASSWD: /usr/bin/systemctl start robot-console-can.service robot-console.service
+dase-orinnx ALL=(root) NOPASSWD: /usr/bin/systemctl stop robot-console.service robot-console-can.service
+dase-orinnx ALL=(root) NOPASSWD: /usr/bin/systemctl restart robot-console-can.service robot-console.service

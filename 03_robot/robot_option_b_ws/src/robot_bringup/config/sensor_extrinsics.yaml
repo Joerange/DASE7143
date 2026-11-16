@@ -1,0 +1,45 @@
+# Mounting transforms only. RealSense owns its factory internal/optical TFs.
+schema_version: 1
+units: metres_and_radians
+base_convention: track_envelope_centre_projected_onto_ground_x_forward_y_left_z_up
+measurement_date: '2026-11-09'
+status: approximate_values_accepted_for_lab
+references:
+  track_length_m: 0.690
+  track_front_x_m: 0.345
+  drawing_top_view_front: bottom
+  drawing_top_view_body_left: right
+  camera_case_height_m: 0.500
+  camera_case_setback_from_track_front_m: 0.150
+  camera_case_on_centreline: true
+  lidar_height_m: 0.600
+  lidar_setback_from_track_front_m: 0.220
+  lidar_on_centreline: true
+  camera_pitch_source: saved_RGBD_floor_plane_11.8_degrees_down_user_confirms_downward_mount
+  camera_case_origin_assumption: approximate_geometric_housing_centre_not_front_glass_or_bottom_screw
+  case_to_camera_link_source: installed_D455_nominal_case_geometry_and_left_IR_origin
+  geometry_policy: use_supplied_drawing_and_existing_approximate_extrinsics_no_further_dimension_measurements
+  collision_geometry_file: nav2_footprint.yaml
+transforms:
+  - name: base_to_lidar
+    parent: base_link
+    child: laser_link
+    xyz: [0.125, 0.0, 0.600]
+    rpy: [0.0, 0.0, 1.5707963267948966]
+    provenance: user_measured_translation_and_explicit_user_yaw_90deg
+    assumptions: lidar_roll_and_pitch_zero_initially
+  - name: base_to_camera_mount
+    parent: base_link
+    child: camera_mount
+    xyz: [0.195, 0.0, 0.500]
+    rpy: [0.0, 0.20943951023931956, 0.0]
+    provenance: user_measured_case_centre_translation_and_depth_estimated_pitch_12deg
+    assumptions: camera_yaw_and_roll_zero_initially
+  - name: camera_mount_to_link
+    parent: camera_mount
+    child: camera_link
+    # Half nominal case depth - front-glass inset - optical depth-origin setback:
+    # 0.026/2 - 0.0001 - 0.00455 = 0.00835 m; left IR is 0.0475 m left of centre.
+    xyz: [0.00835, 0.0475, 0.0]
+    rpy: [0.0, 0.0, 0.0]
+    provenance: approximate_D455_case_to_left_IR_geometry_not_factory_sensor_calibration

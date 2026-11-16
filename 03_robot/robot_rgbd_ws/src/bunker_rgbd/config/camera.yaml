@@ -1,0 +1,15 @@
+# Independent copy of the supplied approximate mounting calibration.
+# No LiDAR transforms, map, odom, SLAM or navigation parameters.
+# 30cm acceptance requires physical ruler validation of these extrinsics.
+front_x: 0.345
+transforms:
+  - name: rgbd_base_camera_mount
+    parent: base_link
+    child: camera_mount
+    xyz: [0.195, 0.0, 0.500]
+    rpy: [0.0, 0.20943951023931956, 0.0]
+  - name: rgbd_camera_mount_link
+    parent: camera_mount
+    child: camera_link
+    xyz: [0.00835, 0.0475, 0.0]
+    rpy: [0.0, 0.0, 0.0]

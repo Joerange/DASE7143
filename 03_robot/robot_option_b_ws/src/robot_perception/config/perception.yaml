@@ -1,0 +1,18 @@
+perception_node:
+  ros__parameters:
+    model_path: /home/dase-orinnx/yolo-world-agv/models/yolov8s-worldv2-trash.pt
+    target_label: trash can
+    device: '0'
+    image_size: 640
+    half: true
+    sync_slop: 0.05
+    max_frame_age: 0.5
+    depth_scale: 0.001
+    event_window: 0.2
+    min_image_sharpness: 12.0
+vlm_confirm_node:
+  ros__parameters:
+    model: qwen3.8-flash
+    base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+    target_label: trash can
+    request_timeout: 8.0

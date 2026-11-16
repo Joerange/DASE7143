@@ -1,0 +1,2980 @@
+{
+  "scope": "Source code, engineering configuration and usage instructions only. Media, course handouts, reports, run data and original Git history remain local.",
+  "files": [
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_E1_buttons.c",
+      "size": 1697,
+      "sha256": "1cdbc933c74afbe13909e349683ef73348a6a282c63dea9e47727a28d632575a"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_E2_PWM.c",
+      "size": 3472,
+      "sha256": "178643e0365d6947383cb3d9fd40fe569414e1039708cbed4cbf8cc229020cc9"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_E3a_LCD_buttons.c",
+      "size": 2621,
+      "sha256": "da757afed73b098484470cd481822f74b737bf4c9fc4cdf822e65252887cb011"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_E3b_Hello_Sleeping.c",
+      "size": 2336,
+      "sha256": "1b9cb453c73594d35f774360483b2ee0d33269d9d200ed5f924823ec4f67c71e"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_E4a_Storage_log.c",
+      "size": 1005,
+      "sha256": "68bfd2fa2117454f98f847ed2d672ce398ae51a3f6faabf631387a305fd95129"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_E4b_Date_time.c",
+      "size": 1005,
+      "sha256": "296e2de1c399d1aa1e9a05c89094fef559bf85b7f9984eb4e43ebd9f8783f034"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_E5a_Cloud_Temp.py",
+      "size": 757,
+      "sha256": "5c1dce8abafb18d6349b3674331a3a2d6aa645cbcfbf3d76cb05dd84741ae0d4"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_E5b_Cloud_LCD.py",
+      "size": 1144,
+      "sha256": "0f951cf67004e5475b81ed6e30486ed8d28774a167c8f1c4db776dbe173bcffb"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_T1_Digital_Input.c",
+      "size": 1399,
+      "sha256": "b10487759ce75123e625814652e509ed2c7bb1b9badf4da29986b67e63bc9ceb"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_T2_PWM.c",
+      "size": 3495,
+      "sha256": "0b79383aae3e5e0a28125b19cb20c418b89b613c0f3ed7c901e03b6f3e9612b0"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_T2c_RGB_LED_PWM.c",
+      "size": 7013,
+      "sha256": "d01393c224bea3f973c1a6beb3965c09b9c8ed7ad0e9844565a539ba515329e8"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_T2d_PWM_Servo_Motor.c",
+      "size": 3464,
+      "sha256": "554970c1522e115c2dde4acf7076665c0a62d48ac1190db42127702c4ec49ccf"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_T2e_PWM_DC_Motor.c",
+      "size": 3506,
+      "sha256": "8dd565404ccc772ade90172bde938cb510ccdf413f8de0ad8e9c0ce6b00f19d1"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_T3_LCD.c",
+      "size": 5399,
+      "sha256": "505047587afced6f8ac7ec17c0a8e8ef0fe6b4d6666e64bcb532c1570a0f96dc"
+    },
+    {
+      "path": "01_course_materials/M1-L2/M1_L2_T4_Storage.c",
+      "size": 859,
+      "sha256": "2c6419f588bce6552db1f5167dbcbb79ba83d112e055d2db812fb08e80d3bd06"
+    },
+    {
+      "path": "01_course_materials/M1-L2/lcd_display.c",
+      "size": 1863,
+      "sha256": "a705db30255271eb9770e93ba9077bfda602667ccb2b96f6d84848dda6f5e8fb"
+    },
+    {
+      "path": "01_course_materials/M1-L2/mraa_beaglebone_pinmap.h",
+      "size": 2234,
+      "sha256": "32e0fafad7819d53ebefb26c9eee37e8d11d7764ed2c2eeaceb5b30e55749e47"
+    },
+    {
+      "path": "01_course_materials/M1-L2/weather.js",
+      "size": 261,
+      "sha256": "10e73953a9d6f5dd0c53ad26fb4f98cc2c1c6939f1407e27972a26d64936303d"
+    },
+    {
+      "path": "01_course_materials/M1-L2/weather_lcd.js",
+      "size": 1152,
+      "sha256": "019580b25a05e94e644a350ff0cad48550ed3a04ea180c454b046f6bcf41198e"
+    },
+    {
+      "path": "01_course_materials/M1-L2/weather_sd.c",
+      "size": 153,
+      "sha256": "3325573bfe4ad06c24b1672bfcaa8b10d21639c6de71f9d44d732e55d23fd10a"
+    },
+    {
+      "path": "01_course_materials/M1-L2/weather_sd.js",
+      "size": 353,
+      "sha256": "a0b648e90f6ff424cdbb34d162d168c7acf84ff48bf75a3c8610f37724ab18bc"
+    },
+    {
+      "path": "01_course_materials/M1-L3/M1_L3_T2_RELAY.c",
+      "size": 7075,
+      "sha256": "4cc0d7ad49c7205bbbf0e1dac73d639afb97fa51f924669e55722d5fe4bd6dac"
+    },
+    {
+      "path": "01_course_materials/M1-L3/mraa_beaglebone_pinmap.h",
+      "size": 2234,
+      "sha256": "32e0fafad7819d53ebefb26c9eee37e8d11d7764ed2c2eeaceb5b30e55749e47"
+    },
+    {
+      "path": "02_coursework/coursework1/code/M1_L2_E3b_Hello_Sleeping.c",
+      "size": 2336,
+      "sha256": "1b9cb453c73594d35f774360483b2ee0d33269d9d200ed5f924823ec4f67c71e"
+    },
+    {
+      "path": "02_coursework/coursework1/code/M1_L2_E5b_Cloud_LCD.py",
+      "size": 1144,
+      "sha256": "0f951cf67004e5475b81ed6e30486ed8d28774a167c8f1c4db776dbe173bcffb"
+    },
+    {
+      "path": "02_coursework/coursework1/code/M1_L2_T3_LCD.c",
+      "size": 5399,
+      "sha256": "505047587afced6f8ac7ec17c0a8e8ef0fe6b4d6666e64bcb532c1570a0f96dc"
+    },
+    {
+      "path": "02_coursework/coursework1/code/M1_L3_T2_RELAY.c",
+      "size": 7075,
+      "sha256": "4cc0d7ad49c7205bbbf0e1dac73d639afb97fa51f924669e55722d5fe4bd6dac"
+    },
+    {
+      "path": "02_coursework/coursework1/code/weather_lcd.js",
+      "size": 1245,
+      "sha256": "53cb3ce103f287889f71e9d0b4c534b11f34df302d232ba64ddc6bdcfb8a0028"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/README.md",
+      "size": 18658,
+      "sha256": "7b3e7675ab4d4cb071594dfee62321f80e18e2d949c0d6b6d2111d6e00da206a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/CMakeLists.txt",
+      "size": 2941,
+      "sha256": "6e20414887c7c5c0da17aa17494ea13d9dba27c771fb5c31c9f07ce7c65f0374"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/README.md",
+      "size": 18107,
+      "sha256": "3d177a2238ddcd780c1fe4c9e2f74cd91209433a29f998a0f9d1123f0c26aa0c"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/filter_angle.yaml",
+      "size": 2004,
+      "sha256": "bcef7a020da12e42f70a473abbb54d06cb392cc716e1a4003564fb7496210793"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_ch.yaml",
+      "size": 3319,
+      "sha256": "73d77eeda8aefefb9353231bbdacacf02b7f4bad7c8bb7184c5bc2842b7159cd"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_cx.yaml",
+      "size": 3150,
+      "sha256": "b976add9182304c61421f0fafb56df667e007c79c0d8eeac4ab4e2e587377352"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_cx_left.yaml",
+      "size": 3157,
+      "sha256": "52bbf4a0e4ba7452eb3b62639096605f9e6facd806017689ee28bb13cadf2620"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_cx_right.yaml",
+      "size": 3156,
+      "sha256": "b85e8bc30a499d409c3d99be989206f354524674868b31bc7349b6c07ff8a625"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_ls.yaml",
+      "size": 2965,
+      "sha256": "2f6e164086a2cf85509ddcee03cccd88c905fb16050e7e80f8896b100134fa3d"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_x10.yaml",
+      "size": 3183,
+      "sha256": "af5e567e233917e92a846553f9dce71c2e5f05cd2b3c2d086ebd305b7abfc15f"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/network_setup.yaml",
+      "size": 468,
+      "sha256": "ea5dfe5e8b0f23b9c8ade848ec97341c60ee4f6a26fcb2fea4625d4535d5bd12"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/ThreadPool.h",
+      "size": 2674,
+      "sha256": "39ed9b40268cb8b759794ea5b9e76072afa643a97b77810eaef7a9b671085702"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/data_acquisition_strategy.hpp",
+      "size": 2394,
+      "sha256": "7fdcb2f0c7945d3424e08158f3b14c8cee17fa75e6c94a0d6745f2e654934be1"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/input.hpp",
+      "size": 3943,
+      "sha256": "1a4ef6a0353bac11ed2ced31da038aec437e9d68e5a622ca7c926db1a650f6d5"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lsiosr.hpp",
+      "size": 2506,
+      "sha256": "db0d4e24314405a4ce5e422c6ff5223b7def44dee29c471bb8d05c347e6ee181"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_ch_driver.hpp",
+      "size": 8536,
+      "sha256": "bacea3f35ea920366efbc09c7840ec3bc0278d09af5092fdb7046ebcc61bfd1b"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_cx_driver.hpp",
+      "size": 11411,
+      "sha256": "d6fea7df8aa4834926316e19c91940af2553cc3ade02fe4f457f75c2371de2ec"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_device_info.hpp",
+      "size": 2846,
+      "sha256": "6839f930ad0af515e916af6181665671410090a1d9288279ba49faa665c3f19f"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_driver.hpp",
+      "size": 5094,
+      "sha256": "91f1ea43239300c4bff3e400c9749029723e010861ff0553e61de8a245906aaa"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_log.hpp",
+      "size": 1324,
+      "sha256": "e7de0d6112e4571aeed69070ecb75b949e70035f7898ac6148ca393e7d127fa1"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_ls_driver.hpp",
+      "size": 6242,
+      "sha256": "bb1214fb9e2e07ff0d130ac503faf9b6b517b049a5c5deea70abc31c5d8e9ebe"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_pointcloud.hpp",
+      "size": 2381,
+      "sha256": "e90f478586b70558eadc1e54e18a72fcbbf5a5e6f52e5768e66269d44d7ede7f"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_services.hpp",
+      "size": 8306,
+      "sha256": "bf87cd724e46bdc400e880e739343faaa72019a428f505fec25bdd47dc2a57f2"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_x10_driver.hpp",
+      "size": 6982,
+      "sha256": "6ed9f040b8ce89607728d6a4d8705e5120afbefd964b51fe7728d0611b77162a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/pointcloud_transform.hpp",
+      "size": 3469,
+      "sha256": "6eb0f1fc48738dd69601f14e27a72e1d8f8e6b60a45d620dafac86fbe8f6055b"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/launch/lslidar_ch_launch.py",
+      "size": 2105,
+      "sha256": "8f39f1b35925a837a1a177bb7a65ebe2713c693903427c8a83f7767b92bbb96d"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/launch/lslidar_cx_launch.py",
+      "size": 2105,
+      "sha256": "b8a4d942cb3d6c40fa6d2b359763c6c32862f564e4e0e705f0d07e7024d982b3"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/launch/lslidar_double_launch.py",
+      "size": 2699,
+      "sha256": "b0851cb5a6baa74f06ddc9b1f2ff857cce35a0667ec004e2c77d258505adab56"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/launch/lslidar_ls_launch.py",
+      "size": 2105,
+      "sha256": "0aba0cbc5fcebda7d1637f96414fa60342b4b2c96af946fafefaabef21c3e1d0"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/launch/lslidar_x10_launch.py",
+      "size": 2110,
+      "sha256": "8c0a54c75387adbac6f8e076ecd3717a06f4c4567de5e167a0a1ebd4fb35f72a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/package.xml",
+      "size": 1177,
+      "sha256": "33eca27c7602abc040d06d5c09110d2a60f0e6fa735d70d779718b44521cb528"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/rviz/lslidar_ch.rviz",
+      "size": 6523,
+      "sha256": "587d80c6f54aa05bdc96537fd9088276b4f8e12423e4dbce9795653b8d4d11f7"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/rviz/lslidar_cx.rviz",
+      "size": 6481,
+      "sha256": "3f70e462075ec8b071ab3e786810ce2f12f1635a34a114e7a50111235053a51e"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/rviz/lslidar_ls.rviz",
+      "size": 5636,
+      "sha256": "51f5d1a40ca5e4fc35f32c99ec6b61975a47d5c719f2eaba6216a58abe8eacb3"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/rviz/lslidar_x10.rviz",
+      "size": 6412,
+      "sha256": "b8524a255506958cf08f82661127129945c26b3f04f9394c45189624f4f0bd35"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/input.cpp",
+      "size": 10966,
+      "sha256": "02f266f5e31bc18cd07ce527a5c046df771d0a1a4c9573c01dc2b523da336e8e"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lsiosr.cpp",
+      "size": 8205,
+      "sha256": "8ba2ca4ecdc88c00f6ebcbc873abb751e2278c2df78b054e4f923f551133596a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_ch_driver.cpp",
+      "size": 71115,
+      "sha256": "b08b838e49870c2ad3c119d5d8d24afa0cd1f4838972292dc9382a65067d7942"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_cx_driver.cpp",
+      "size": 68329,
+      "sha256": "4c855520fa4886e1d53dc273abd8450d6420c0b76ce7527ef95c850bdffaf759"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_device_info.cpp",
+      "size": 11340,
+      "sha256": "b69953a0799f9b7e48c6954bda41ccf87c88149c1965c61b9a2619117ff715fe"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_driver_node.cpp",
+      "size": 3136,
+      "sha256": "ad4932c777a94cfd50d44f5a3b542d9f1a2421ed86ebf859c7eb957d2cbb6919"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_ls_driver.cpp",
+      "size": 38384,
+      "sha256": "f494ac6467b1e8c392d7c262cfdaf44a19097882f7af1bf50f9d3637be5e4381"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_services.cpp",
+      "size": 24477,
+      "sha256": "7bea6d921d7897a66f1c3f3cbecf9886ea221c7d559935627f4981a2a866aa88"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_x10_driver.cpp",
+      "size": 49494,
+      "sha256": "0e71876c1b6a45cb60fed4e3631c221541b328a5fbf765dea43d3ccfbf6831b2"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/CMakeLists.txt",
+      "size": 680,
+      "sha256": "d26dba3398020eaa519fff553ad0326684f665790606b0e887ebbef20160019b"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/msg/LslidarInformation.msg",
+      "size": 441,
+      "sha256": "ec7aee2f1bd134e3965ffe16ee0841406ede1f4d731738926f6fc7111f897aeb"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/msg/LslidarPacket.msg",
+      "size": 75,
+      "sha256": "dab59b87ad186114864dc150d2d8cb6cb4fac81b8c259ff64b3351798f034e7c"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/package.xml",
+      "size": 834,
+      "sha256": "708217820d8163b90394177ec3fb05adbf8016e615fd1a2c2d4d77770e2d54f1"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/AngleDistortionCorrection.srv",
+      "size": 138,
+      "sha256": "f1c7a5955b7b77484537388948baa6f2e12394e2914c43f7f45464c52e0e2e10"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/FrameRate.srv",
+      "size": 73,
+      "sha256": "561056310b6c13d013a09b55b7f87f2e18a2cdc9219be5cb6f427b0635c837a9"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/InvalidData.srv",
+      "size": 163,
+      "sha256": "29d9aafa39988271cadef69e66ddea3435fca2b658b6752835bcd81d718f72d7"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/IpAndPort.srv",
+      "size": 184,
+      "sha256": "d44b7b748af701493063c1f07bdc8812972c1096802a2df3d709694af2a3143e"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/MotorControl.srv",
+      "size": 82,
+      "sha256": "ebff6cbabb43892e69582e7ab57510d1d29a14bf454fbf508553f01932c13400"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/MotorSpeed.srv",
+      "size": 72,
+      "sha256": "e33eb24b8bb56e44158ca0bb95f1e4883c6617e5d47ef1f9b0ef1aa2a1d5d33d"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/PowerControl.srv",
+      "size": 70,
+      "sha256": "54bcce21dcc0d594c54ba6157adf0950b3b0a19bc369776619e666fd2aa82a51"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/RfdRemoval.srv",
+      "size": 67,
+      "sha256": "562865285f9fe681792bdebe55b80e210b216d2e3489cba83a29910ec60a0313"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/StandbyMode.srv",
+      "size": 89,
+      "sha256": "85bfa19ffa4356dc6ce40fd867ff6da68906e2b84f9285917d76f96c60940455"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/TailRemoval.srv",
+      "size": 89,
+      "sha256": "16f838c09e493f677f054c5220f81e39e989785a6e52454473946bc56f5911f9"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/TimeMode.srv",
+      "size": 118,
+      "sha256": "2d7f90f37cb6dcb1cc4730cff6db431a47fd680615062ab089480ae076b4d251"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/LICENSE",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/README.md",
+      "size": 1808,
+      "sha256": "4b864c450fca9c4ddf503126d0fc8eaf175924718ea130f52cf77fe63f41b5f0"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_base/CMakeLists.txt",
+      "size": 2129,
+      "sha256": "4bd3956489a739822f20be717d598f62ba44ffe7cba2df1ec5a60750e0cbf290"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_base/include/bunker_base/bunker_base_ros.hpp",
+      "size": 947,
+      "sha256": "b03acf82208f3ad0c64a8d93ec5101390a4d4bb1b6b9d7d4648a4090f1e9d903"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_base/include/bunker_base/bunker_messenger.hpp",
+      "size": 8092,
+      "sha256": "7f7d5696c38450c30d9d0c6de421cd57c3858de69b04473639839cca33b69c30"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_base/launch/bunker_base.launch.py",
+      "size": 2932,
+      "sha256": "6e9ba7ae46640990eea385b0a508225a89d3ca92462e9d34ae3c71bbbb53b0c2"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_base/package.xml",
+      "size": 938,
+      "sha256": "1326a6580bf12bb22c73471f0cfb05da5871f50b57f3feac316cd33b5aad1f6d"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_base/src/bunker_base_node.cpp",
+      "size": 828,
+      "sha256": "99b0b904ffd9acd106ad97d964f120e4d74f344370aafad9806f3acfd31922ea"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_base/src/bunker_base_ros.cpp",
+      "size": 4354,
+      "sha256": "5f17d857811a7e76b1e3ff4b189a69912f91906d27c8d62e2d27771c65ba9ea5"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_msgs/CMakeLists.txt",
+      "size": 977,
+      "sha256": "a9d890eb80160c9a0a526b2edd27227ba8d2eae9bcf291aedfce5aecbd0693c4"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_msgs/msg/BunkerActuatorState.msg",
+      "size": 607,
+      "sha256": "1c164db0ff49e2b3adfd80b037e91f5cc3cfe912698a376f9caf02ddeafccef0"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_msgs/msg/BunkerRCState.msg",
+      "size": 125,
+      "sha256": "f20789a77f045981274fef30b63e60e2a7d8c6294cc741f407c16c6cef95dded"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_msgs/msg/BunkerStatus.msg",
+      "size": 533,
+      "sha256": "3c788938e18fba68256514a7c1b6463aba5c7080113c53da5bec0116494e5ea7"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/bunker_ros2/bunker_msgs/package.xml",
+      "size": 876,
+      "sha256": "874a596f155e020c6023f44437b575c004dbd87ef5b9622b53fb57728a8154d0"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/simple_vlm/README.md",
+      "size": 5763,
+      "sha256": "ae8614d25a603ddb888062fc850d9e22d8577a457c0331b4fd89a5876900a981"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/simple_vlm/config.yaml",
+      "size": 1056,
+      "sha256": "1b82f557939db5e957fc293b0a9a8fc819bae3fa24038624970de2e0e02c9eef"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/simple_vlm/package.xml",
+      "size": 755,
+      "sha256": "6d032adb460d0804e7cf676b0933fd3ede1064d58cba7e97dccd42fafc0b1947"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/simple_vlm/resource/simple_vlm",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/simple_vlm/setup.cfg",
+      "size": 90,
+      "sha256": "3f4cb04b4a5756f60aad3e1b53e39b1ab53f2690091d58c5c4b215ccf7dc9952"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/simple_vlm/setup.py",
+      "size": 803,
+      "sha256": "f32ccd248ce6ab17aff63807031a24377a198176122bb7fa0bc099f376ae2184"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/simple_vlm/simple_vlm/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/simple_vlm/simple_vlm/simple_vlm.py",
+      "size": 9593,
+      "sha256": "a536d11f40be5a5476335fd67609aef4555a249b7961de29d2f4466b53b4cb8d"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/.github/workflows/ros-ci.yml",
+      "size": 3531,
+      "sha256": "5cf83467483b04ba891342e0f49681b85143a8c8b06789874e450da81693d29b"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/.github/workflows/standalone-ci.yml",
+      "size": 452,
+      "sha256": "5a832a83c99b2012ff66e8c7ae0c53a46cd846881f749eb43c35a1ae8cdd948a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/.gitignore",
+      "size": 1132,
+      "sha256": "e6d5c9886875d6547c3aacbbdc67d50a797e5a78c2186485bfc6e86c62727b2d"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/.gitlab-ci.yml",
+      "size": 3561,
+      "sha256": "af2d564e1e302ee1fb7745d2c0972bb4395d5de0cb395de80d77857b3ce8b9ea"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/.gitmodules",
+      "size": 102,
+      "sha256": "a01e6a4d6bc6c3a49a8c5b57f7a0ff7641d11be99af7d75c3ff4202e01042d11"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/CMakeLists.txt",
+      "size": 7375,
+      "sha256": "10bbc2762204bbf40b90a0f1eab514a17aabdcb9b8b64151d8c738b9cec97627"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/LICENSE",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/README.md",
+      "size": 8182,
+      "sha256": "fc4ff7a56538cf56e38c85ad13ef80570c09e03e9c61d920f15d34492713100a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/cmake/ugv_sdkConfig.cmake.in",
+      "size": 282,
+      "sha256": "86adebe0618ac35aef05dde31e13ed06e6c6dedb02dbe44a5aa2c6773b913f4b"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp",
+      "size": 1697,
+      "sha256": "bf95662a8c413de3fd14d2056d5c8a8d131a2f92ae261291d2d1a8006698cb4c"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp",
+      "size": 1896,
+      "sha256": "3757edd3012fb5bc71cd4a2df67305fda4e110550e8aa4b3b4fa9a63e2c53ea6"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp",
+      "size": 3740,
+      "sha256": "797612c80f0660a3b730800ba1def5119c224f3d3d6a53ad00f718e2a05bc0cb"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h",
+      "size": 9399,
+      "sha256": "fdf4f535e99077b36b14c4165a6845843d99d165e37df9dba81da044170626bf"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h",
+      "size": 963,
+      "sha256": "31c667e25aea9f0f58067385efd6613869f022dfd2cbdbd7218f31e4df7ff907"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp",
+      "size": 1282,
+      "sha256": "c7518a9abe85b493289b3387b9c792b94b3deb04a602873568c7f37f5523f366"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp",
+      "size": 1355,
+      "sha256": "d4ad9b1c2d9a47d423f0efa5a26d1a1d84f85c1b5b0eff86ebd1f3fa7b4ff02b"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp",
+      "size": 1890,
+      "sha256": "86f5decfc6d6a3bf4bfbe6c0377639aed05b8aeedda52c0be9dcd943c0261edb"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp",
+      "size": 1007,
+      "sha256": "c2de70189a84f37e452b3f454300891c55c938607dc3ed98c0376f861e69aa9c"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp",
+      "size": 1753,
+      "sha256": "fcedca69122832fd2b079d02d4b03799e71e7183b1df19f65e51a63f1e78056e"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp",
+      "size": 1402,
+      "sha256": "ae86fc6bd4a1a8d8c90c98a4bba16d1fdb2c4fabbd9916f51e9fb428fd777eca"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp",
+      "size": 1366,
+      "sha256": "1e57056bd058b7c7818234fb0270491e619f37fc81b2514a634e9bfd3a1cdf7f"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/parser_base.hpp",
+      "size": 1434,
+      "sha256": "c06143016c6d6e9750ff0cd63c0def7c2fe3792338e9b6e4a0dacaa6ec8eefdf"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h",
+      "size": 786,
+      "sha256": "ba0a932e2252e631b8ceca5936a9bfd29850fbbd52d8fa54f2b507acd92fcaf2"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp",
+      "size": 2848,
+      "sha256": "6c59d1e9ffc8fd6339e32024e2e06b6ca5b8ea2b7fcca9f1fdda767201de5a81"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp",
+      "size": 1606,
+      "sha256": "f7b596b38a66e5363ae1ddcc3d62db94e51b9eea98ee6be5a5f823e5f3b79aaf"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp",
+      "size": 698,
+      "sha256": "3760e8bbf58709cb884e20d51396f676423ee2f8e18e86f500ae62d710918743"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp",
+      "size": 13842,
+      "sha256": "5522b56487fdc02a466c12baf17bbff3d4c310a9289f476177d32a713843b4a0"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp",
+      "size": 2524,
+      "sha256": "fde0f304f2a34eeb2832dd0daee99442fe7253cb270157a305fb087d826400a6"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp",
+      "size": 3729,
+      "sha256": "4feefa59f1d3d7d830a323d9de3a504eeb2b9e6450a68f9d2eaf0d7f10374f56"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp",
+      "size": 8868,
+      "sha256": "1d1090811d3f9af77d374c3f07d96a35cbb15755aa1094a5c22a72f3c97a1445"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp",
+      "size": 3646,
+      "sha256": "ed8827af26c06bc73903599790fe3dd5f76ec78b1b1c2d101e1cc39b4680e594"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp",
+      "size": 3147,
+      "sha256": "87ac03b21275c85781daa99fc91784a056999b5500e9c0954caaa420c014db94"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp",
+      "size": 2952,
+      "sha256": "aca6a286d49d4404a7012c70478a6b227f25af01593aae90a5bfff0c9060d46b"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp",
+      "size": 1105,
+      "sha256": "0e058d341668f37fe83eff216f862617c47c4446759f8dafdd7b7abb4868cc4a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp",
+      "size": 1173,
+      "sha256": "376da97fff05a00303214dda9a3e25d3ba9330266bf5a6b132b803f2c70a1264"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp",
+      "size": 1467,
+      "sha256": "9a08cbb00a4dc28be1c692cf542cbc40f9efdcd891ed0b9e4703ca2bbba8906a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp",
+      "size": 1729,
+      "sha256": "2e5717b230d93675eaa4a51840bc56aa2f55088fd8cacaebe5550dc30c4b9081"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp",
+      "size": 1109,
+      "sha256": "ee89fcfe1bddc5b4ac5d244030fed8e91ec497b3d2bceecdb1724b0e03a951b4"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp",
+      "size": 1218,
+      "sha256": "245af813dd2143fdefb2d32a60bb4f24d751d75e8d8a3fe4734ca102584f057f"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp",
+      "size": 702,
+      "sha256": "451bc0b674e733c1f1ecf5527025c5302fd63d4e52147e79cdf8ab5ae030f80c"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/package.xml",
+      "size": 626,
+      "sha256": "7b7dd913ce79c10063f015bb77b493b5bcee74aafdbb12dc480a827e301d3ba9"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/CMakeLists.txt",
+      "size": 186,
+      "sha256": "f6832f97a35d88eb5afdf981b5ee9460cd381f69fe8422744ed42c718f4f1eb6"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/bunker_demo/CMakeLists.txt",
+      "size": 104,
+      "sha256": "0f9d87b931947645bb4fdf21dddd3b3404b53b4c7a168267c4515d2ab9e6b496"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/bunker_demo/bunker_robot_demo.cpp",
+      "size": 2525,
+      "sha256": "ccde7fd3efd213b81cc60998d426aa7357e702e44662773a34de36b11cf3620f"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/hunter_demo/CMakeLists.txt",
+      "size": 104,
+      "sha256": "b17f255f08021a555eea4f94ad3fb9491e0667a4186408be7dcf449e31e5f1c7"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/hunter_demo/hunter_robot_demo.cpp",
+      "size": 3070,
+      "sha256": "347a23fcc8268578f65a3f0df36278bc3246091ef8f68b4a29bc147518b86827"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/ranger_demo/CMakeLists.txt",
+      "size": 104,
+      "sha256": "4d6ac047a1a93e7898bcdd3aa239135e7266df117474431a4156209b209a5c2a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/ranger_demo/ranger_robot_demo.cpp",
+      "size": 4095,
+      "sha256": "1d6286e8c0595630d48a496841965815d3b0ad78b34dbfc6bf308866415c9d4d"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/scout_demo/CMakeLists.txt",
+      "size": 228,
+      "sha256": "1c45eccb3ad874623f2192f9554897823b4ebd748fdc304da25908ba6289e03b"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/scout_demo/scout_mini_omni_demo.cpp",
+      "size": 4877,
+      "sha256": "75d33941fef7f12a1eecb065fc544c997aa4137e43232c649d0c4494cb50e198"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/scout_demo/scout_robot_demo.cpp",
+      "size": 5446,
+      "sha256": "8ae74c060cd32978d3b32efa938c37bf684bdd9053993f847c722426b7c14b80"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/tracer_demo/CMakeLists.txt",
+      "size": 104,
+      "sha256": "11c0b426d603f205bba526d52d540069bb1bc2e0386c234f88facfda65cce192"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp",
+      "size": 2441,
+      "sha256": "2e2693452960325f016b5c858493a53c566b556f4f50a88c28e744a2f7306fba"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/utils_demo/CMakeLists.txt",
+      "size": 228,
+      "sha256": "8ff7c5a86e2fc1235cbad0f55b6b0568567b09741447172b942990e5a1cad244"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/utils_demo/demo_protocol_detector.cpp",
+      "size": 803,
+      "sha256": "1cf45225263012d8bd5003466ca59cfa066e1c0b1dffca3b2ef7ac4adcdbf0e9"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/sample/utils_demo/demo_robot_version.cpp",
+      "size": 1777,
+      "sha256": "8e3d2e292cfa36587c71f5aa601e5aba6c0cdd67b99c5f56b2cf83cb16c46cd3"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/scripts/bringup_can2usb_1m.bash",
+      "size": 87,
+      "sha256": "80903d59162eeb8f6f31167e9b1f19c147447356aeb0a8cc3f79e7cd653d237e"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/scripts/bringup_can2usb_500k.bash",
+      "size": 86,
+      "sha256": "536e99de91fc4a06e05bf0383fe68e9e695a58fad00e5fb716f4d8868c6ad684"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/scripts/setup_can2usb.bash",
+      "size": 190,
+      "sha256": "518f163bc2c6375ebe60610e62a31f34e05ce1f16e98d4a51faa225985b32964"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/async_port/async_can.cpp",
+      "size": 3679,
+      "sha256": "19108a3fe90f41a7cb49436755c2cb2c42e72eaae2cd6c6135aea81f9d72877a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/async_port/async_serial.cpp",
+      "size": 4525,
+      "sha256": "825744128c5a9872a125977d06ff696e3437a53fb656d937faadcd9ae150ac8a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp",
+      "size": 1653,
+      "sha256": "25ef9f92985cfd0fda5a774d4a64a09e90716ea69bded9eff658806cdf5a5bc9"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/hunter_robot.cpp",
+      "size": 1893,
+      "sha256": "4559cbef2bac0db9d3c67fbb9740668d0bd79bef825d820623f50552c19b3669"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/ranger_robot.cpp",
+      "size": 2379,
+      "sha256": "94ab7dfa39be6b22ee5260de1c5e58b5d24ddd49aeb8ac2f181850bde6db9741"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/scout_robot.cpp",
+      "size": 2917,
+      "sha256": "35411cdf84f4f0c37199a3a768a80d9dccb15f52968c84e7b68ee6dd695c2921"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/titan_robot.cpp",
+      "size": 1793,
+      "sha256": "3ad9017731087edecac7da13e857ee6d7a2426195d5baf1cbf6d4de553208228"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/tracer_robot.cpp",
+      "size": 1962,
+      "sha256": "88b207de61ed9a152f16a54b99f3d0c684927ad6eb915593fe3ee794051e1166"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/protocol_v1/agilex_msg_parser_v1.c",
+      "size": 6436,
+      "sha256": "327f4ac9ff0c3895702e7a7a643c7cd0dcbcc26e122380ecbd14133f5daca559"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/protocol_v1/agilex_protocol_v1.h",
+      "size": 5142,
+      "sha256": "72199e956aef27685340343d88706b59704039411acc9ed25b3c8c5d73b285b5"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/protocol_v2/agilex_msg_parser_v2.c",
+      "size": 26417,
+      "sha256": "8da1e060088f0dcb91593c5c47361660ae9560c6faa2ef63a008e8a2690d6d0d"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/protocol_v2/agilex_msg_parser_v2.h",
+      "size": 836,
+      "sha256": "04553fbf4cc3cf4222dc59eb26a258faf428fb0ab1cd263d9c7ea354920fb896"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/protocol_v2/agilex_protocol_v2.h",
+      "size": 10441,
+      "sha256": "346803e920dcb56d78009136dcc5b091c9ee436ffcecb364dc9e85227efa1f36"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/protocol_v2/protocol_v2_parser.cpp",
+      "size": 820,
+      "sha256": "837b216886e90c74f24c0db6fff719a08543985e8018f4cd9367abd8cf920120"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/utilities/protocol_detector.cpp",
+      "size": 1487,
+      "sha256": "743c642b9b1ffde193864221a5dc023dd83ee40505ceb9e59f9ac9a9ee4ec62a"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/src/utilities/stopwatch.hpp",
+      "size": 4901,
+      "sha256": "8946b7513516d8e188ccc0a8ba694568453862aaa579dc37e985bc045d2dc600"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/test/CMakeLists.txt",
+      "size": 935,
+      "sha256": "d17ec7dfa19241fe8490ac733b6218b5c1bb7abab5976e19a87a1fcae2f32029"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/test/scout_memory_check.cpp",
+      "size": 1119,
+      "sha256": "2ad90427f0b1db8f28bc7e0a0b8b18e625c3f7336176970c0b81c09cb3ab5a21"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/test/unit_tests/utest_hunter_v1_command.cpp",
+      "size": 2910,
+      "sha256": "988822bf6bc5c28c2d2d2f7cb6dd2e3e53820416ff02c41742fb5253d2630a7f"
+    },
+    {
+      "path": "02_coursework/coursework2/reference/robot_review/robot/ros2_ws/src/ugv_sdk/test/unit_tests/utest_scout_v1_command.cpp",
+      "size": 2219,
+      "sha256": "5a310e4af414c147f7b7e9883c785de670003c2df191bf3e19086623ac26c6de"
+    },
+    {
+      "path": "03_robot/robot/find_all_can_port.sh",
+      "size": 989,
+      "sha256": "e8da66f53fd09bf6526b4f7219ecbd44cc92dd0831d1be1c02087f32f385eb3f"
+    },
+    {
+      "path": "03_robot/robot/jetson-gs_usb-kernel-builder.sh",
+      "size": 7225,
+      "sha256": "2a66d1221d7378ce7d9a9ec431619ccb04da12e99c3e635e7fc3a7a57b7f1a6a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/README.md",
+      "size": 18658,
+      "sha256": "7b3e7675ab4d4cb071594dfee62321f80e18e2d949c0d6b6d2111d6e00da206a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/CMakeLists.txt",
+      "size": 2941,
+      "sha256": "6e20414887c7c5c0da17aa17494ea13d9dba27c771fb5c31c9f07ce7c65f0374"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/README.md",
+      "size": 18107,
+      "sha256": "3d177a2238ddcd780c1fe4c9e2f74cd91209433a29f998a0f9d1123f0c26aa0c"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/filter_angle.yaml",
+      "size": 2004,
+      "sha256": "bcef7a020da12e42f70a473abbb54d06cb392cc716e1a4003564fb7496210793"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_ch.yaml",
+      "size": 3319,
+      "sha256": "73d77eeda8aefefb9353231bbdacacf02b7f4bad7c8bb7184c5bc2842b7159cd"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_cx.yaml",
+      "size": 3150,
+      "sha256": "b976add9182304c61421f0fafb56df667e007c79c0d8eeac4ab4e2e587377352"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_cx_left.yaml",
+      "size": 3157,
+      "sha256": "52bbf4a0e4ba7452eb3b62639096605f9e6facd806017689ee28bb13cadf2620"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_cx_right.yaml",
+      "size": 3156,
+      "sha256": "b85e8bc30a499d409c3d99be989206f354524674868b31bc7349b6c07ff8a625"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_ls.yaml",
+      "size": 2965,
+      "sha256": "2f6e164086a2cf85509ddcee03cccd88c905fb16050e7e80f8896b100134fa3d"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/lslidar_x10.yaml",
+      "size": 3183,
+      "sha256": "af5e567e233917e92a846553f9dce71c2e5f05cd2b3c2d086ebd305b7abfc15f"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/config/network_setup.yaml",
+      "size": 468,
+      "sha256": "ea5dfe5e8b0f23b9c8ade848ec97341c60ee4f6a26fcb2fea4625d4535d5bd12"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/ThreadPool.h",
+      "size": 2674,
+      "sha256": "39ed9b40268cb8b759794ea5b9e76072afa643a97b77810eaef7a9b671085702"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/data_acquisition_strategy.hpp",
+      "size": 2394,
+      "sha256": "7fdcb2f0c7945d3424e08158f3b14c8cee17fa75e6c94a0d6745f2e654934be1"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/input.hpp",
+      "size": 3943,
+      "sha256": "1a4ef6a0353bac11ed2ced31da038aec437e9d68e5a622ca7c926db1a650f6d5"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lsiosr.hpp",
+      "size": 2506,
+      "sha256": "db0d4e24314405a4ce5e422c6ff5223b7def44dee29c471bb8d05c347e6ee181"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_ch_driver.hpp",
+      "size": 8536,
+      "sha256": "bacea3f35ea920366efbc09c7840ec3bc0278d09af5092fdb7046ebcc61bfd1b"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_cx_driver.hpp",
+      "size": 11411,
+      "sha256": "d6fea7df8aa4834926316e19c91940af2553cc3ade02fe4f457f75c2371de2ec"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_device_info.hpp",
+      "size": 2846,
+      "sha256": "6839f930ad0af515e916af6181665671410090a1d9288279ba49faa665c3f19f"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_driver.hpp",
+      "size": 5094,
+      "sha256": "91f1ea43239300c4bff3e400c9749029723e010861ff0553e61de8a245906aaa"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_log.hpp",
+      "size": 1324,
+      "sha256": "e7de0d6112e4571aeed69070ecb75b949e70035f7898ac6148ca393e7d127fa1"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_ls_driver.hpp",
+      "size": 6242,
+      "sha256": "bb1214fb9e2e07ff0d130ac503faf9b6b517b049a5c5deea70abc31c5d8e9ebe"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_pointcloud.hpp",
+      "size": 2381,
+      "sha256": "e90f478586b70558eadc1e54e18a72fcbbf5a5e6f52e5768e66269d44d7ede7f"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_services.hpp",
+      "size": 8306,
+      "sha256": "bf87cd724e46bdc400e880e739343faaa72019a428f505fec25bdd47dc2a57f2"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_x10_driver.hpp",
+      "size": 6982,
+      "sha256": "6ed9f040b8ce89607728d6a4d8705e5120afbefd964b51fe7728d0611b77162a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/pointcloud_transform.hpp",
+      "size": 3469,
+      "sha256": "6eb0f1fc48738dd69601f14e27a72e1d8f8e6b60a45d620dafac86fbe8f6055b"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/launch/lslidar_ch_launch.py",
+      "size": 2105,
+      "sha256": "8f39f1b35925a837a1a177bb7a65ebe2713c693903427c8a83f7767b92bbb96d"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/launch/lslidar_cx_launch.py",
+      "size": 2105,
+      "sha256": "b8a4d942cb3d6c40fa6d2b359763c6c32862f564e4e0e705f0d07e7024d982b3"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/launch/lslidar_double_launch.py",
+      "size": 2699,
+      "sha256": "b0851cb5a6baa74f06ddc9b1f2ff857cce35a0667ec004e2c77d258505adab56"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/launch/lslidar_ls_launch.py",
+      "size": 2105,
+      "sha256": "0aba0cbc5fcebda7d1637f96414fa60342b4b2c96af946fafefaabef21c3e1d0"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/launch/lslidar_x10_launch.py",
+      "size": 2110,
+      "sha256": "8c0a54c75387adbac6f8e076ecd3717a06f4c4567de5e167a0a1ebd4fb35f72a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/package.xml",
+      "size": 1177,
+      "sha256": "33eca27c7602abc040d06d5c09110d2a60f0e6fa735d70d779718b44521cb528"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/rviz/lslidar_ch.rviz",
+      "size": 6523,
+      "sha256": "587d80c6f54aa05bdc96537fd9088276b4f8e12423e4dbce9795653b8d4d11f7"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/rviz/lslidar_cx.rviz",
+      "size": 6481,
+      "sha256": "3f70e462075ec8b071ab3e786810ce2f12f1635a34a114e7a50111235053a51e"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/rviz/lslidar_ls.rviz",
+      "size": 5636,
+      "sha256": "51f5d1a40ca5e4fc35f32c99ec6b61975a47d5c719f2eaba6216a58abe8eacb3"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/rviz/lslidar_x10.rviz",
+      "size": 6412,
+      "sha256": "b8524a255506958cf08f82661127129945c26b3f04f9394c45189624f4f0bd35"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/input.cpp",
+      "size": 10966,
+      "sha256": "02f266f5e31bc18cd07ce527a5c046df771d0a1a4c9573c01dc2b523da336e8e"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lsiosr.cpp",
+      "size": 8205,
+      "sha256": "8ba2ca4ecdc88c00f6ebcbc873abb751e2278c2df78b054e4f923f551133596a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_ch_driver.cpp",
+      "size": 71115,
+      "sha256": "b08b838e49870c2ad3c119d5d8d24afa0cd1f4838972292dc9382a65067d7942"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_cx_driver.cpp",
+      "size": 68329,
+      "sha256": "4c855520fa4886e1d53dc273abd8450d6420c0b76ce7527ef95c850bdffaf759"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_device_info.cpp",
+      "size": 11340,
+      "sha256": "b69953a0799f9b7e48c6954bda41ccf87c88149c1965c61b9a2619117ff715fe"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_driver_node.cpp",
+      "size": 3136,
+      "sha256": "ad4932c777a94cfd50d44f5a3b542d9f1a2421ed86ebf859c7eb957d2cbb6919"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_ls_driver.cpp",
+      "size": 38384,
+      "sha256": "f494ac6467b1e8c392d7c262cfdaf44a19097882f7af1bf50f9d3637be5e4381"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_services.cpp",
+      "size": 24477,
+      "sha256": "7bea6d921d7897a66f1c3f3cbecf9886ea221c7d559935627f4981a2a866aa88"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_x10_driver.cpp",
+      "size": 49494,
+      "sha256": "0e71876c1b6a45cb60fed4e3631c221541b328a5fbf765dea43d3ccfbf6831b2"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/CMakeLists.txt",
+      "size": 680,
+      "sha256": "d26dba3398020eaa519fff553ad0326684f665790606b0e887ebbef20160019b"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/msg/LslidarInformation.msg",
+      "size": 441,
+      "sha256": "ec7aee2f1bd134e3965ffe16ee0841406ede1f4d731738926f6fc7111f897aeb"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/msg/LslidarPacket.msg",
+      "size": 75,
+      "sha256": "dab59b87ad186114864dc150d2d8cb6cb4fac81b8c259ff64b3351798f034e7c"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/package.xml",
+      "size": 834,
+      "sha256": "708217820d8163b90394177ec3fb05adbf8016e615fd1a2c2d4d77770e2d54f1"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/AngleDistortionCorrection.srv",
+      "size": 138,
+      "sha256": "f1c7a5955b7b77484537388948baa6f2e12394e2914c43f7f45464c52e0e2e10"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/FrameRate.srv",
+      "size": 73,
+      "sha256": "561056310b6c13d013a09b55b7f87f2e18a2cdc9219be5cb6f427b0635c837a9"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/InvalidData.srv",
+      "size": 163,
+      "sha256": "29d9aafa39988271cadef69e66ddea3435fca2b658b6752835bcd81d718f72d7"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/IpAndPort.srv",
+      "size": 184,
+      "sha256": "d44b7b748af701493063c1f07bdc8812972c1096802a2df3d709694af2a3143e"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/MotorControl.srv",
+      "size": 82,
+      "sha256": "ebff6cbabb43892e69582e7ab57510d1d29a14bf454fbf508553f01932c13400"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/MotorSpeed.srv",
+      "size": 72,
+      "sha256": "e33eb24b8bb56e44158ca0bb95f1e4883c6617e5d47ef1f9b0ef1aa2a1d5d33d"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/PowerControl.srv",
+      "size": 70,
+      "sha256": "54bcce21dcc0d594c54ba6157adf0950b3b0a19bc369776619e666fd2aa82a51"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/RfdRemoval.srv",
+      "size": 67,
+      "sha256": "562865285f9fe681792bdebe55b80e210b216d2e3489cba83a29910ec60a0313"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/StandbyMode.srv",
+      "size": 89,
+      "sha256": "85bfa19ffa4356dc6ce40fd867ff6da68906e2b84f9285917d76f96c60940455"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/TailRemoval.srv",
+      "size": 89,
+      "sha256": "16f838c09e493f677f054c5220f81e39e989785a6e52454473946bc56f5911f9"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/Lslidar_ROS2_driver/lslidar_msgs/srv/TimeMode.srv",
+      "size": 118,
+      "sha256": "2d7f90f37cb6dcb1cc4730cff6db431a47fd680615062ab089480ae076b4d251"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/LICENSE",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/README.md",
+      "size": 1808,
+      "sha256": "4b864c450fca9c4ddf503126d0fc8eaf175924718ea130f52cf77fe63f41b5f0"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_base/CMakeLists.txt",
+      "size": 2129,
+      "sha256": "4bd3956489a739822f20be717d598f62ba44ffe7cba2df1ec5a60750e0cbf290"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_base/include/bunker_base/bunker_base_ros.hpp",
+      "size": 947,
+      "sha256": "b03acf82208f3ad0c64a8d93ec5101390a4d4bb1b6b9d7d4648a4090f1e9d903"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_base/include/bunker_base/bunker_messenger.hpp",
+      "size": 8092,
+      "sha256": "7f7d5696c38450c30d9d0c6de421cd57c3858de69b04473639839cca33b69c30"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_base/launch/bunker_base.launch.py",
+      "size": 2932,
+      "sha256": "6e9ba7ae46640990eea385b0a508225a89d3ca92462e9d34ae3c71bbbb53b0c2"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_base/package.xml",
+      "size": 938,
+      "sha256": "1326a6580bf12bb22c73471f0cfb05da5871f50b57f3feac316cd33b5aad1f6d"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_base/src/bunker_base_node.cpp",
+      "size": 828,
+      "sha256": "99b0b904ffd9acd106ad97d964f120e4d74f344370aafad9806f3acfd31922ea"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_base/src/bunker_base_ros.cpp",
+      "size": 4354,
+      "sha256": "5f17d857811a7e76b1e3ff4b189a69912f91906d27c8d62e2d27771c65ba9ea5"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_msgs/CMakeLists.txt",
+      "size": 977,
+      "sha256": "a9d890eb80160c9a0a526b2edd27227ba8d2eae9bcf291aedfce5aecbd0693c4"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_msgs/msg/BunkerActuatorState.msg",
+      "size": 607,
+      "sha256": "1c164db0ff49e2b3adfd80b037e91f5cc3cfe912698a376f9caf02ddeafccef0"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_msgs/msg/BunkerRCState.msg",
+      "size": 125,
+      "sha256": "f20789a77f045981274fef30b63e60e2a7d8c6294cc741f407c16c6cef95dded"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_msgs/msg/BunkerStatus.msg",
+      "size": 533,
+      "sha256": "3c788938e18fba68256514a7c1b6463aba5c7080113c53da5bec0116494e5ea7"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/bunker_ros2/bunker_msgs/package.xml",
+      "size": 876,
+      "sha256": "874a596f155e020c6023f44437b575c004dbd87ef5b9622b53fb57728a8154d0"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/simple_vlm/README.md",
+      "size": 5763,
+      "sha256": "ae8614d25a603ddb888062fc850d9e22d8577a457c0331b4fd89a5876900a981"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/simple_vlm/config.yaml",
+      "size": 1056,
+      "sha256": "1b82f557939db5e957fc293b0a9a8fc819bae3fa24038624970de2e0e02c9eef"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/simple_vlm/package.xml",
+      "size": 755,
+      "sha256": "6d032adb460d0804e7cf676b0933fd3ede1064d58cba7e97dccd42fafc0b1947"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/simple_vlm/resource/simple_vlm",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/simple_vlm/setup.cfg",
+      "size": 90,
+      "sha256": "3f4cb04b4a5756f60aad3e1b53e39b1ab53f2690091d58c5c4b215ccf7dc9952"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/simple_vlm/setup.py",
+      "size": 803,
+      "sha256": "f32ccd248ce6ab17aff63807031a24377a198176122bb7fa0bc099f376ae2184"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/simple_vlm/simple_vlm/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/simple_vlm/simple_vlm/simple_vlm.py",
+      "size": 9593,
+      "sha256": "a536d11f40be5a5476335fd67609aef4555a249b7961de29d2f4466b53b4cb8d"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/.github/workflows/ros-ci.yml",
+      "size": 3531,
+      "sha256": "5cf83467483b04ba891342e0f49681b85143a8c8b06789874e450da81693d29b"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/.github/workflows/standalone-ci.yml",
+      "size": 452,
+      "sha256": "5a832a83c99b2012ff66e8c7ae0c53a46cd846881f749eb43c35a1ae8cdd948a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/.gitignore",
+      "size": 1132,
+      "sha256": "e6d5c9886875d6547c3aacbbdc67d50a797e5a78c2186485bfc6e86c62727b2d"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/.gitlab-ci.yml",
+      "size": 3561,
+      "sha256": "af2d564e1e302ee1fb7745d2c0972bb4395d5de0cb395de80d77857b3ce8b9ea"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/.gitmodules",
+      "size": 102,
+      "sha256": "a01e6a4d6bc6c3a49a8c5b57f7a0ff7641d11be99af7d75c3ff4202e01042d11"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/CMakeLists.txt",
+      "size": 7375,
+      "sha256": "10bbc2762204bbf40b90a0f1eab514a17aabdcb9b8b64151d8c738b9cec97627"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/LICENSE",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/README.md",
+      "size": 8182,
+      "sha256": "fc4ff7a56538cf56e38c85ad13ef80570c09e03e9c61d920f15d34492713100a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/cmake/ugv_sdkConfig.cmake.in",
+      "size": 282,
+      "sha256": "86adebe0618ac35aef05dde31e13ed06e6c6dedb02dbe44a5aa2c6773b913f4b"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp",
+      "size": 1697,
+      "sha256": "bf95662a8c413de3fd14d2056d5c8a8d131a2f92ae261291d2d1a8006698cb4c"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp",
+      "size": 1896,
+      "sha256": "3757edd3012fb5bc71cd4a2df67305fda4e110550e8aa4b3b4fa9a63e2c53ea6"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp",
+      "size": 3740,
+      "sha256": "797612c80f0660a3b730800ba1def5119c224f3d3d6a53ad00f718e2a05bc0cb"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h",
+      "size": 9399,
+      "sha256": "fdf4f535e99077b36b14c4165a6845843d99d165e37df9dba81da044170626bf"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h",
+      "size": 963,
+      "sha256": "31c667e25aea9f0f58067385efd6613869f022dfd2cbdbd7218f31e4df7ff907"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp",
+      "size": 1282,
+      "sha256": "c7518a9abe85b493289b3387b9c792b94b3deb04a602873568c7f37f5523f366"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp",
+      "size": 1355,
+      "sha256": "d4ad9b1c2d9a47d423f0efa5a26d1a1d84f85c1b5b0eff86ebd1f3fa7b4ff02b"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp",
+      "size": 1890,
+      "sha256": "86f5decfc6d6a3bf4bfbe6c0377639aed05b8aeedda52c0be9dcd943c0261edb"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp",
+      "size": 1007,
+      "sha256": "c2de70189a84f37e452b3f454300891c55c938607dc3ed98c0376f861e69aa9c"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp",
+      "size": 1753,
+      "sha256": "fcedca69122832fd2b079d02d4b03799e71e7183b1df19f65e51a63f1e78056e"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp",
+      "size": 1402,
+      "sha256": "ae86fc6bd4a1a8d8c90c98a4bba16d1fdb2c4fabbd9916f51e9fb428fd777eca"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp",
+      "size": 1366,
+      "sha256": "1e57056bd058b7c7818234fb0270491e619f37fc81b2514a634e9bfd3a1cdf7f"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/parser_base.hpp",
+      "size": 1434,
+      "sha256": "c06143016c6d6e9750ff0cd63c0def7c2fe3792338e9b6e4a0dacaa6ec8eefdf"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h",
+      "size": 786,
+      "sha256": "ba0a932e2252e631b8ceca5936a9bfd29850fbbd52d8fa54f2b507acd92fcaf2"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp",
+      "size": 2848,
+      "sha256": "6c59d1e9ffc8fd6339e32024e2e06b6ca5b8ea2b7fcca9f1fdda767201de5a81"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp",
+      "size": 1606,
+      "sha256": "f7b596b38a66e5363ae1ddcc3d62db94e51b9eea98ee6be5a5f823e5f3b79aaf"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp",
+      "size": 698,
+      "sha256": "3760e8bbf58709cb884e20d51396f676423ee2f8e18e86f500ae62d710918743"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp",
+      "size": 13842,
+      "sha256": "5522b56487fdc02a466c12baf17bbff3d4c310a9289f476177d32a713843b4a0"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp",
+      "size": 2524,
+      "sha256": "fde0f304f2a34eeb2832dd0daee99442fe7253cb270157a305fb087d826400a6"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp",
+      "size": 3729,
+      "sha256": "4feefa59f1d3d7d830a323d9de3a504eeb2b9e6450a68f9d2eaf0d7f10374f56"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp",
+      "size": 8868,
+      "sha256": "1d1090811d3f9af77d374c3f07d96a35cbb15755aa1094a5c22a72f3c97a1445"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp",
+      "size": 3646,
+      "sha256": "ed8827af26c06bc73903599790fe3dd5f76ec78b1b1c2d101e1cc39b4680e594"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp",
+      "size": 3147,
+      "sha256": "87ac03b21275c85781daa99fc91784a056999b5500e9c0954caaa420c014db94"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp",
+      "size": 2952,
+      "sha256": "aca6a286d49d4404a7012c70478a6b227f25af01593aae90a5bfff0c9060d46b"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp",
+      "size": 1105,
+      "sha256": "0e058d341668f37fe83eff216f862617c47c4446759f8dafdd7b7abb4868cc4a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp",
+      "size": 1173,
+      "sha256": "376da97fff05a00303214dda9a3e25d3ba9330266bf5a6b132b803f2c70a1264"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp",
+      "size": 1467,
+      "sha256": "9a08cbb00a4dc28be1c692cf542cbc40f9efdcd891ed0b9e4703ca2bbba8906a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp",
+      "size": 1729,
+      "sha256": "2e5717b230d93675eaa4a51840bc56aa2f55088fd8cacaebe5550dc30c4b9081"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp",
+      "size": 1109,
+      "sha256": "ee89fcfe1bddc5b4ac5d244030fed8e91ec497b3d2bceecdb1724b0e03a951b4"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp",
+      "size": 1218,
+      "sha256": "245af813dd2143fdefb2d32a60bb4f24d751d75e8d8a3fe4734ca102584f057f"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp",
+      "size": 702,
+      "sha256": "451bc0b674e733c1f1ecf5527025c5302fd63d4e52147e79cdf8ab5ae030f80c"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/package.xml",
+      "size": 626,
+      "sha256": "7b7dd913ce79c10063f015bb77b493b5bcee74aafdbb12dc480a827e301d3ba9"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/CMakeLists.txt",
+      "size": 186,
+      "sha256": "f6832f97a35d88eb5afdf981b5ee9460cd381f69fe8422744ed42c718f4f1eb6"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/bunker_demo/CMakeLists.txt",
+      "size": 104,
+      "sha256": "0f9d87b931947645bb4fdf21dddd3b3404b53b4c7a168267c4515d2ab9e6b496"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/bunker_demo/bunker_robot_demo.cpp",
+      "size": 2525,
+      "sha256": "ccde7fd3efd213b81cc60998d426aa7357e702e44662773a34de36b11cf3620f"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/hunter_demo/CMakeLists.txt",
+      "size": 104,
+      "sha256": "b17f255f08021a555eea4f94ad3fb9491e0667a4186408be7dcf449e31e5f1c7"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/hunter_demo/hunter_robot_demo.cpp",
+      "size": 3070,
+      "sha256": "347a23fcc8268578f65a3f0df36278bc3246091ef8f68b4a29bc147518b86827"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/ranger_demo/CMakeLists.txt",
+      "size": 104,
+      "sha256": "4d6ac047a1a93e7898bcdd3aa239135e7266df117474431a4156209b209a5c2a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/ranger_demo/ranger_robot_demo.cpp",
+      "size": 4095,
+      "sha256": "1d6286e8c0595630d48a496841965815d3b0ad78b34dbfc6bf308866415c9d4d"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/scout_demo/CMakeLists.txt",
+      "size": 228,
+      "sha256": "1c45eccb3ad874623f2192f9554897823b4ebd748fdc304da25908ba6289e03b"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/scout_demo/scout_mini_omni_demo.cpp",
+      "size": 4877,
+      "sha256": "75d33941fef7f12a1eecb065fc544c997aa4137e43232c649d0c4494cb50e198"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/scout_demo/scout_robot_demo.cpp",
+      "size": 5446,
+      "sha256": "8ae74c060cd32978d3b32efa938c37bf684bdd9053993f847c722426b7c14b80"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/tracer_demo/CMakeLists.txt",
+      "size": 104,
+      "sha256": "11c0b426d603f205bba526d52d540069bb1bc2e0386c234f88facfda65cce192"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp",
+      "size": 2441,
+      "sha256": "2e2693452960325f016b5c858493a53c566b556f4f50a88c28e744a2f7306fba"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/utils_demo/CMakeLists.txt",
+      "size": 228,
+      "sha256": "8ff7c5a86e2fc1235cbad0f55b6b0568567b09741447172b942990e5a1cad244"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/utils_demo/demo_protocol_detector.cpp",
+      "size": 803,
+      "sha256": "1cf45225263012d8bd5003466ca59cfa066e1c0b1dffca3b2ef7ac4adcdbf0e9"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/sample/utils_demo/demo_robot_version.cpp",
+      "size": 1777,
+      "sha256": "8e3d2e292cfa36587c71f5aa601e5aba6c0cdd67b99c5f56b2cf83cb16c46cd3"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/scripts/bringup_can2usb_1m.bash",
+      "size": 87,
+      "sha256": "80903d59162eeb8f6f31167e9b1f19c147447356aeb0a8cc3f79e7cd653d237e"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/scripts/bringup_can2usb_500k.bash",
+      "size": 86,
+      "sha256": "536e99de91fc4a06e05bf0383fe68e9e695a58fad00e5fb716f4d8868c6ad684"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/scripts/setup_can2usb.bash",
+      "size": 190,
+      "sha256": "518f163bc2c6375ebe60610e62a31f34e05ce1f16e98d4a51faa225985b32964"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/async_port/async_can.cpp",
+      "size": 3679,
+      "sha256": "19108a3fe90f41a7cb49436755c2cb2c42e72eaae2cd6c6135aea81f9d72877a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/async_port/async_serial.cpp",
+      "size": 4525,
+      "sha256": "825744128c5a9872a125977d06ff696e3437a53fb656d937faadcd9ae150ac8a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp",
+      "size": 1653,
+      "sha256": "25ef9f92985cfd0fda5a774d4a64a09e90716ea69bded9eff658806cdf5a5bc9"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/hunter_robot.cpp",
+      "size": 1893,
+      "sha256": "4559cbef2bac0db9d3c67fbb9740668d0bd79bef825d820623f50552c19b3669"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/ranger_robot.cpp",
+      "size": 2379,
+      "sha256": "94ab7dfa39be6b22ee5260de1c5e58b5d24ddd49aeb8ac2f181850bde6db9741"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/scout_robot.cpp",
+      "size": 2917,
+      "sha256": "35411cdf84f4f0c37199a3a768a80d9dccb15f52968c84e7b68ee6dd695c2921"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/titan_robot.cpp",
+      "size": 1793,
+      "sha256": "3ad9017731087edecac7da13e857ee6d7a2426195d5baf1cbf6d4de553208228"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/mobile_robot/tracer_robot.cpp",
+      "size": 1962,
+      "sha256": "88b207de61ed9a152f16a54b99f3d0c684927ad6eb915593fe3ee794051e1166"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/protocol_v1/agilex_msg_parser_v1.c",
+      "size": 6436,
+      "sha256": "327f4ac9ff0c3895702e7a7a643c7cd0dcbcc26e122380ecbd14133f5daca559"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/protocol_v1/agilex_protocol_v1.h",
+      "size": 5142,
+      "sha256": "72199e956aef27685340343d88706b59704039411acc9ed25b3c8c5d73b285b5"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/protocol_v2/agilex_msg_parser_v2.c",
+      "size": 26417,
+      "sha256": "8da1e060088f0dcb91593c5c47361660ae9560c6faa2ef63a008e8a2690d6d0d"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/protocol_v2/agilex_msg_parser_v2.h",
+      "size": 836,
+      "sha256": "04553fbf4cc3cf4222dc59eb26a258faf428fb0ab1cd263d9c7ea354920fb896"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/protocol_v2/agilex_protocol_v2.h",
+      "size": 10441,
+      "sha256": "346803e920dcb56d78009136dcc5b091c9ee436ffcecb364dc9e85227efa1f36"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/protocol_v2/protocol_v2_parser.cpp",
+      "size": 820,
+      "sha256": "837b216886e90c74f24c0db6fff719a08543985e8018f4cd9367abd8cf920120"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/utilities/protocol_detector.cpp",
+      "size": 1487,
+      "sha256": "743c642b9b1ffde193864221a5dc023dd83ee40505ceb9e59f9ac9a9ee4ec62a"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/src/utilities/stopwatch.hpp",
+      "size": 4901,
+      "sha256": "8946b7513516d8e188ccc0a8ba694568453862aaa579dc37e985bc045d2dc600"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/test/CMakeLists.txt",
+      "size": 935,
+      "sha256": "d17ec7dfa19241fe8490ac733b6218b5c1bb7abab5976e19a87a1fcae2f32029"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/test/scout_memory_check.cpp",
+      "size": 1119,
+      "sha256": "2ad90427f0b1db8f28bc7e0a0b8b18e625c3f7336176970c0b81c09cb3ab5a21"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/test/unit_tests/utest_hunter_v1_command.cpp",
+      "size": 2910,
+      "sha256": "988822bf6bc5c28c2d2d2f7cb6dd2e3e53820416ff02c41742fb5253d2630a7f"
+    },
+    {
+      "path": "03_robot/robot/ros2_ws/src/ugv_sdk/test/unit_tests/utest_scout_v1_command.cpp",
+      "size": 2219,
+      "sha256": "5a310e4af414c147f7b7e9883c785de670003c2df191bf3e19086623ac26c6de"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/CONSOLE.txt",
+      "size": 17226,
+      "sha256": "77899b70fa3456475f0d8e32f5a1d3da7b9875e1100dc27c115825fd1b2be8aa"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/CONTRACT.md",
+      "size": 33372,
+      "sha256": "fc345f588135eb1b7b1a4117a0bb257928d97688c44e735ac213de728cedf0d5"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/README.txt",
+      "size": 14927,
+      "sha256": "253500418b5aad984386b02f6253492047f8203037e61c2aa0dc0b71b3ab72f0"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/console_service/can_client.py",
+      "size": 1339,
+      "sha256": "715668236658f3c6d456796762f6c952394643444ff938aa945d92ebddeea21b"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/console_service/can_helper.py",
+      "size": 9343,
+      "sha256": "fbe72c3dc0b98c3f76c1719f32837114128648a242e7fb849163ac7c883c3162"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/console_service/config/session.sudoers",
+      "size": 397,
+      "sha256": "b8d9eeb041fc2eefc7cb4b060f60456187db162f72472d2f58c3b8b85af05979"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/console_service/install_services.sh",
+      "size": 2456,
+      "sha256": "18799f8a72c9f8c56ebbcadc0e12649cf2eb535a74b9fe6b9192cae956bfa1ec"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/console_service/run_console.sh",
+      "size": 371,
+      "sha256": "ce91e155f92e181f79d2ed98e7a529e67a58ba7bd234e682473fb404cee89dbe"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/console_service/systemd/robot-console-can.service",
+      "size": 633,
+      "sha256": "a9cf680ae7366afdbf1148372921f5eeb4306a6765b8704975b1567f865e7b94"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/console_service/systemd/robot-console.service",
+      "size": 924,
+      "sha256": "64fcc913caf5d1cd53a5896a47c1229c60bbf1caf007d72a0e2da6796b6711be"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/scripts/final_state.py",
+      "size": 1192,
+      "sha256": "fd31df78f648b47c99cf6e414cef50bc24faa622634bdf70c122f92a153ab4c9"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/scripts/package_source.py",
+      "size": 664,
+      "sha256": "fd81daf041abc67395004f0315f0b39ebdaf366790cde4aa9a8206feee349356"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/scripts/run_console.sh",
+      "size": 2247,
+      "sha256": "858b628b3f3ca4a95d65a79434925b6dc1c71b34457afa5bfdcdd5f5e5cdeb17"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/scripts/start_robot.py",
+      "size": 20101,
+      "sha256": "77e75f1f9ff744074313a9ec11c9d4b4de3bdc6e7037f40aa9761d5fd2bd3331"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/scripts/start_robot.sh",
+      "size": 1125,
+      "sha256": "af100f5fc566db7747012c701d6e48603fca4f5c02903d975a0af93694d5f5b3"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/scripts/stop_robot.py",
+      "size": 11835,
+      "sha256": "660d3b7820a406d975c7807cbdded09cf3dfdd79f5235b3477eb8e5417a7569b"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/scripts/stop_robot.sh",
+      "size": 535,
+      "sha256": "78aa66117783a71c321445ea7673399afae59e91c81ec183bd78952bab245e62"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/scripts/verify_nav_config.py",
+      "size": 422,
+      "sha256": "c72221886feb4cb5f2232e4d609a8ddaad3e31fd9f8c88eb68709c1d57427898"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/scripts/verify_online_slam.py",
+      "size": 26128,
+      "sha256": "051c330644d222652c122e79168b19ffdf44c599a4337a3ef31370467b2dcb47"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/scripts/verify_stationary.py",
+      "size": 5216,
+      "sha256": "329ceaf24f555ef14a4680a536ea9d4311ecade59c5ff154019902872f8042dd"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/CMakeLists.txt",
+      "size": 273,
+      "sha256": "a28aa53ce0503accedb693a96a1b3ebc99dc5365bf5aa45c5553dbb716cb6ba5"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/README.txt",
+      "size": 3050,
+      "sha256": "976a63612a615c37001dfebbac6d6ccfd93f567cda86c7adb5789db603910e1b"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/behavior_trees/navigate_safe.xml",
+      "size": 714,
+      "sha256": "90c12fbe4ae229750af2fecce2942cc27527d4ff743a2200130266352a8678e4"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/behavior_trees/navigate_through_safe.xml",
+      "size": 624,
+      "sha256": "1cac06ece628c7d482acb4d44571c1ee7677032b8ea05f5cb2fca8ad7b341283"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/config/mission.yaml",
+      "size": 2422,
+      "sha256": "8e4daf43dce575fceb7eebd19360018d412eb098bb8562dc9a5bf1796868010e"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/config/nav2.yaml",
+      "size": 6258,
+      "sha256": "e7e3130455fdf8cc63e4066068f69808065d80a40869f42bc35cc9dffd97b2d4"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/config/nav2_footprint.yaml",
+      "size": 921,
+      "sha256": "e73479fa65c07501f7a8c3a251b9f6ab63844c7f81903296b47d850352c8ae06"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/config/perception.yaml",
+      "size": 704,
+      "sha256": "f65f3d62ed3f38f8cc8209f298e46d5a68f885fdaa68a6df3135cedef56d3c69"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/config/scan.yaml",
+      "size": 450,
+      "sha256": "73dcb8f8a80a76f673d89c334e53bb1ecdfe4b48dada2015371b42fc41315e97"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/config/sensor_extrinsics.yaml",
+      "size": 1999,
+      "sha256": "f5f6dc4b6a7c8b19824673a1e9b73dca7d1a674c19db3896e1fa1d5b98935e21"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/config/slam.yaml",
+      "size": 2220,
+      "sha256": "56cdee9bbd0029245bb10b2f3d3f1e66019dbafc7278858cc000ad93de8cb34f"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/launch/mapping.launch.py",
+      "size": 1676,
+      "sha256": "7e8d6fb5e6244382c3090a063aadbff6ef87885c1b0280d6bedc2ef971ab9fdc"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/launch/nav2.launch.py",
+      "size": 3084,
+      "sha256": "17b670974790944e1c1d17b3f975e72239782a2c7866e0b87964b9cd3abe2f90"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/launch/sensor_tf.launch.py",
+      "size": 3354,
+      "sha256": "2385e08b3385ae81263dad121847acd5afbbc2278710b51bb052901cee7484e7"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/launch/sensors.launch.py",
+      "size": 2383,
+      "sha256": "e030b48924df427106d7b3fca853ba061f7aa0a144bca9f76dc7c745097611f9"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/launch/task.launch.py",
+      "size": 4985,
+      "sha256": "d21b65bedd965dc019314c821f4c1cfeec1187101004326f328281a88d704fbf"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/package.xml",
+      "size": 1681,
+      "sha256": "23009379cad6c8ff3d89472b910d1f700eacf77896aaabc515be46497ef252f3"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_bringup/rviz/task.rviz",
+      "size": 1445,
+      "sha256": "be67a09340c7d89adb25c3c5865169d805e6c9f17a3f64b89eb6b5b80607edc7"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/package.xml",
+      "size": 847,
+      "sha256": "4067b16d1a369d3cdedc92855d60669e2fbb7db2192bfad7d3fac6d1fc94b844"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/resource/robot_console",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/robot_console/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/robot_console/backend.py",
+      "size": 33167,
+      "sha256": "388798d948afb9a38ddccf1f304e70a05655f26ec5a3201a7372216d49edb9b8"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/robot_console/can_feedback.py",
+      "size": 3141,
+      "sha256": "17650a31c46f0ae67d4759b286e3b4d229df6aa2728beb32d4046b8b205e6cb8"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/robot_console/core.py",
+      "size": 4605,
+      "sha256": "5e13706cdfd35a602774fb1b40ebf0002f4803acdfcd7461aea6141c7d7ef2fc"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/robot_console/demo.py",
+      "size": 11249,
+      "sha256": "487c92da874d8a1b0307dcc8b1e9a9eb5ecb5b501008d47215db0abdc05c6a85"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/robot_console/rendering.py",
+      "size": 5122,
+      "sha256": "21611dab11aef78385440524d661d5b0b4b47854f7517604211c0a1a479f03e9"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/robot_console/ui.py",
+      "size": 40752,
+      "sha256": "95ac2dbfe21791dd65e369788a285b87c4d6f1c648c713577691c809417226b6"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/setup.cfg",
+      "size": 95,
+      "sha256": "72a3563da3b471c228b2f373d010dacc436df86c433988f44a376f9eb14a3bfc"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_console/setup.py",
+      "size": 579,
+      "sha256": "99529302c360a351094f59ac44a07d6bfdabaa266bdef06c56c01c124cbcd560"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_mission/package.xml",
+      "size": 746,
+      "sha256": "e6201698767f154211eb83212170ead7ef6c341583e6a75b7ad7cca632a6596d"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_mission/resource/robot_mission",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_mission/robot_mission/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_mission/robot_mission/core.py",
+      "size": 27434,
+      "sha256": "1612a903068b69935dd9d26d00cf6e999182fa25899aa7d83e65d34b2c826b4d"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_mission/robot_mission/mapping.py",
+      "size": 3254,
+      "sha256": "1932b1ef64a4398438a919f931e056fc9f51f969e1b990f19a1eaf842091893e"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_mission/robot_mission/node.py",
+      "size": 51331,
+      "sha256": "a833d39621aabe064bf66304a9b67e297d8899c9fd73db2e9dc9847ea3c03319"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_mission/robot_mission/refinement.py",
+      "size": 3963,
+      "sha256": "ae06326723f5655d95dc1d301bd287f296dc328ff9736e71a56af9ccc9ed9302"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_mission/setup.cfg",
+      "size": 95,
+      "sha256": "42b9e5d70a51d5647aaa2fa7d03af34cc110c8e32ddd35b9c9220fdf471a1259"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_mission/setup.py",
+      "size": 556,
+      "sha256": "7d3324c8b0079634a24d17f141f3a4b251147fe3375da0f05b7fbda18024db1f"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/README.txt",
+      "size": 3955,
+      "sha256": "615fbaf0c601916bd3722777966f2579ef7f0b1c24ed5ba408a455d1bf570767"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/config/perception.yaml",
+      "size": 493,
+      "sha256": "009427feaf8f639ce1c4dfd2c7377644d5a7d4b80344befef13a9c46d184394f"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/package.xml",
+      "size": 725,
+      "sha256": "57e79ec9f67d33c21a5efea1f7434ddd809fe716bc42b4b6937e290a9ee545d8"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/resource/robot_perception",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/robot_perception/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/robot_perception/context.py",
+      "size": 2560,
+      "sha256": "e059d1e82138395afc84e67574bdc77e47260ebad8c59085b589564c96bcc63f"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/robot_perception/core.py",
+      "size": 14054,
+      "sha256": "1c8329e31de918f7af9705abfa275f838f70314bd0825729f1fd637e5b10ad44"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/robot_perception/perception_node.py",
+      "size": 19647,
+      "sha256": "6cbb82960df52d94141b72008496ee31fe345be09b01398b1fbbda9152911141"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/robot_perception/vlm_confirm_node.py",
+      "size": 9727,
+      "sha256": "3d7d5e1d34441bf45752d94c112f7c51129698cad2ba8d0b4867d72ceca7c65d"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/setup.cfg",
+      "size": 101,
+      "sha256": "93bdc772df4b11eacfc36327742a58fa05c4ec46deeb3f186b4c055cc62107e4"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_perception/setup.py",
+      "size": 810,
+      "sha256": "aad12443d60523572302823e5a1b586202a4321dfefac7c40deff3b48fa63fe3"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_safety/package.xml",
+      "size": 794,
+      "sha256": "037a0e928414de593056ff75cb800f24d7071195ece9e7e21279244aaf72ebcc"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_safety/resource/robot_safety",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_safety/robot_safety/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_safety/robot_safety/authorization.py",
+      "size": 6755,
+      "sha256": "b1dcf737c9ff62cbd1d36d87eec6cbcaa64d7f90bfb9c4ba1acbf703a21afd85"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_safety/robot_safety/command_guard_node.py",
+      "size": 29159,
+      "sha256": "aee5e44b42d6e181d0557914bba38623eb83c1f4f39159edf33d75442337a401"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_safety/robot_safety/core.py",
+      "size": 23562,
+      "sha256": "60e5fecf0740d85b4d0ada121e090eb62b235faa87a250a35852fd7319b1dab3"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_safety/setup.cfg",
+      "size": 93,
+      "sha256": "aafd9c39454154ed3afe66b19a2ecf3dbc4904a80b77757993c4fbccf9b542a7"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/src/robot_safety/setup.py",
+      "size": 593,
+      "sha256": "f304108ef7ff646ea45bcf333f111b296eaa0b42612e08adcb0932e9fd2234f0"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_bringup.py",
+      "size": 11582,
+      "sha256": "b497e95f4f19bf69b1ad5849dd389fe63d389bed86c54a71916720568a2e1b0c"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_console_backend.py",
+      "size": 9512,
+      "sha256": "96bcb85d20aead1281308c9207b499931932f622bc3411ffc3aa1883f514050f"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_console_can_helper.py",
+      "size": 6942,
+      "sha256": "0143f3adc923e8b9e85af3b79a77c8cf11f22211aa51e50882b2dbe48fcc99c2"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_console_ui_rendering.py",
+      "size": 13903,
+      "sha256": "471a5c5f4ba7ffe38714aa733a9d1ffe911f9fcceaed2f200d57434063601d7c"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_mission.py",
+      "size": 5236,
+      "sha256": "5da93b1a5eb634dd07d8aa05f0e730c2a0824e7cacb1a06a15bfd7b82221dcfe"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_mission_adapter_safety.py",
+      "size": 11660,
+      "sha256": "785c5a09448edf24f132db2e48b41b5db5f3a5664325e4a33a502017bd73a0b6"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_mission_online.py",
+      "size": 6737,
+      "sha256": "e7b8af4b265c74ab4943c948fe3b64b4fb5be0c556f1954db07e99adf19bbed6"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_mission_online_review.py",
+      "size": 4662,
+      "sha256": "ba5a35b44dfe91cdc4d940971bdf343fec8ae50f72b16c7bbca7e7c1ea6cb9a9"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_mission_runtime.py",
+      "size": 8313,
+      "sha256": "0e59c6e6fa160a40d8d7986e9739d3eadc092208a5faa9dbefcecca4ac54d1d1"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_oneclick_launcher.py",
+      "size": 10576,
+      "sha256": "b3ca83212e66914fa18cf46d7640dd323e0708528b2659e0cd77889481d0717a"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_perception_context.py",
+      "size": 6428,
+      "sha256": "201ea494543f9f302930a743616ec68636d1ccfc02c2cfbd340af1f3c21d4db7"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_perception_core.py",
+      "size": 6666,
+      "sha256": "cdcb9e0073111bc7fd5dcc73b619f77fbe896cd127e55b53a983763682bd5c11"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_perception_ros.py",
+      "size": 1541,
+      "sha256": "f29a1185a352b90bf1488d63cce705b6e97b79a2adf530ed877402eedd9cee87"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_robot_credentials_stop.py",
+      "size": 7842,
+      "sha256": "e62d7aadfad5412125dbc37084edb27c026a1c9923f420afa04e0ace9ab29a60"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_safety_authorization.py",
+      "size": 8580,
+      "sha256": "df2684d9b513a5d0a7c13ba493d5ba326d3c70f6ee6d992a87f899339bb8fff4"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_safety_core.py",
+      "size": 8499,
+      "sha256": "bc78a711572c08d0b8b33f15d1e6ccf70f6c4f1122c5cca0a87bc2cc13e68328"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/tests/test_safety_slam.py",
+      "size": 9162,
+      "sha256": "5cca184703fe8be56b382750ec9babf71c7b28858f611ce75dda73c2c7ad50ff"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/CONSOLE.txt",
+      "size": 16814,
+      "sha256": "fbbf837731862ae3902820aa72b8327f04c8f0d02354ed148a399016326add92"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/CONTRACT.md",
+      "size": 31705,
+      "sha256": "90663969c835a73c671fab6714424b3c072f8007c149eed26338a8ef2ee27208"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/README.md",
+      "size": 4661,
+      "sha256": "1c2ece0de8a3e12e9328526db3d857966c7c7dea4b175a5e9bbb04c7cd8ea4ae"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/console_service/can_client.py",
+      "size": 1339,
+      "sha256": "715668236658f3c6d456796762f6c952394643444ff938aa945d92ebddeea21b"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/console_service/can_helper.py",
+      "size": 9343,
+      "sha256": "fbe72c3dc0b98c3f76c1719f32837114128648a242e7fb849163ac7c883c3162"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/console_service/config/session.sudoers",
+      "size": 397,
+      "sha256": "b8d9eeb041fc2eefc7cb4b060f60456187db162f72472d2f58c3b8b85af05979"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/console_service/install_services.sh",
+      "size": 2466,
+      "sha256": "2b5895e7f18a76eb8cf0928efc2ac4a82f0a3fe6bb889be963deab84a0a6861b"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/console_service/run_console.sh",
+      "size": 376,
+      "sha256": "8c8d698f11f05d556deea452bae2ee892f8e2b9ce3034c368e6af1ed90f9d8c1"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/console_service/systemd/robot-console-can.service",
+      "size": 633,
+      "sha256": "a9cf680ae7366afdbf1148372921f5eeb4306a6765b8704975b1567f865e7b94"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/console_service/systemd/robot-console.service",
+      "size": 939,
+      "sha256": "549fc46614b027b0fcd100849f2035913e96067dced4659fe8f83ec70ecb5cd2"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/final_state.py",
+      "size": 1192,
+      "sha256": "fd31df78f648b47c99cf6e414cef50bc24faa622634bdf70c122f92a153ab4c9"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/package_source.py",
+      "size": 663,
+      "sha256": "ce272a4c47c89219e5446eb566562397ced6d3997b49c752ff2521b7cd278314"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/run_console.sh",
+      "size": 2247,
+      "sha256": "858b628b3f3ca4a95d65a79434925b6dc1c71b34457afa5bfdcdd5f5e5cdeb17"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/run_option_b.sh",
+      "size": 584,
+      "sha256": "7de8f0e5414f147188052cb3143613b51dab9bea35ca25ada85093c0a10f9e94"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/start_robot.py",
+      "size": 20130,
+      "sha256": "70b23881a64ec11767b33deaca923b5127b6b8e98f9b07b0efcc3ca31a80bbf5"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/start_robot.sh",
+      "size": 1124,
+      "sha256": "e388466bf16c7983206eae641861766932789f121bb7fb91bf36d6ac60a6e4a3"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/stop_robot.py",
+      "size": 11835,
+      "sha256": "660d3b7820a406d975c7807cbdded09cf3dfdd79f5235b3477eb8e5417a7569b"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/stop_robot.sh",
+      "size": 535,
+      "sha256": "78aa66117783a71c321445ea7673399afae59e91c81ec183bd78952bab245e62"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/summarize_trial.py",
+      "size": 1341,
+      "sha256": "d0f1d803e921eca21a12000526ec9cbe89669720b229135356f750e5ff4bcf5d"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/verify_nav_config.py",
+      "size": 422,
+      "sha256": "c72221886feb4cb5f2232e4d609a8ddaad3e31fd9f8c88eb68709c1d57427898"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/verify_online_slam.py",
+      "size": 26128,
+      "sha256": "051c330644d222652c122e79168b19ffdf44c599a4337a3ef31370467b2dcb47"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/scripts/verify_stationary.py",
+      "size": 5216,
+      "sha256": "329ceaf24f555ef14a4680a536ea9d4311ecade59c5ff154019902872f8042dd"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/CMakeLists.txt",
+      "size": 273,
+      "sha256": "a28aa53ce0503accedb693a96a1b3ebc99dc5365bf5aa45c5553dbb716cb6ba5"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/README.txt",
+      "size": 3050,
+      "sha256": "976a63612a615c37001dfebbac6d6ccfd93f567cda86c7adb5789db603910e1b"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/behavior_trees/navigate_safe.xml",
+      "size": 714,
+      "sha256": "90c12fbe4ae229750af2fecce2942cc27527d4ff743a2200130266352a8678e4"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/behavior_trees/navigate_through_safe.xml",
+      "size": 624,
+      "sha256": "1cac06ece628c7d482acb4d44571c1ee7677032b8ea05f5cb2fca8ad7b341283"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/config/mission.yaml",
+      "size": 1685,
+      "sha256": "c7bef0689995dbd407aed894a889159300c79f9107769cd29c98366f2f82f0ed"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/config/nav2.yaml",
+      "size": 6196,
+      "sha256": "5da7fa02673c9ad1b17df11da14e32d81373588d459de34d369cd8b470478849"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/config/nav2_footprint.yaml",
+      "size": 921,
+      "sha256": "e73479fa65c07501f7a8c3a251b9f6ab63844c7f81903296b47d850352c8ae06"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/config/perception.yaml",
+      "size": 869,
+      "sha256": "69cf0282cdd45f793168aca156a7c2e1ade90a05f250fa960deec241d173276e"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/config/scan.yaml",
+      "size": 361,
+      "sha256": "071e00a37c47f93a64c841b3ffc45b914e0d4fc46e0904c9466d75fdf7dd3171"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/config/sensor_extrinsics.yaml",
+      "size": 1999,
+      "sha256": "f5f6dc4b6a7c8b19824673a1e9b73dca7d1a674c19db3896e1fa1d5b98935e21"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/config/slam.yaml",
+      "size": 2220,
+      "sha256": "56cdee9bbd0029245bb10b2f3d3f1e66019dbafc7278858cc000ad93de8cb34f"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/launch/mapping.launch.py",
+      "size": 1676,
+      "sha256": "7e8d6fb5e6244382c3090a063aadbff6ef87885c1b0280d6bedc2ef971ab9fdc"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/launch/nav2.launch.py",
+      "size": 3084,
+      "sha256": "17b670974790944e1c1d17b3f975e72239782a2c7866e0b87964b9cd3abe2f90"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/launch/sensor_tf.launch.py",
+      "size": 3354,
+      "sha256": "2385e08b3385ae81263dad121847acd5afbbc2278710b51bb052901cee7484e7"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/launch/sensors.launch.py",
+      "size": 2383,
+      "sha256": "e030b48924df427106d7b3fca853ba061f7aa0a144bca9f76dc7c745097611f9"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/launch/task.launch.py",
+      "size": 5445,
+      "sha256": "93dd5a490a0e9fb6856ab909ca3667d3311af9b7f46f914988f3a5f8fb6f77cc"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/package.xml",
+      "size": 1681,
+      "sha256": "23009379cad6c8ff3d89472b910d1f700eacf77896aaabc515be46497ef252f3"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_bringup/rviz/task.rviz",
+      "size": 1445,
+      "sha256": "be67a09340c7d89adb25c3c5865169d805e6c9f17a3f64b89eb6b5b80607edc7"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/package.xml",
+      "size": 847,
+      "sha256": "4067b16d1a369d3cdedc92855d60669e2fbb7db2192bfad7d3fac6d1fc94b844"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/resource/robot_console",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/robot_console/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/robot_console/backend.py",
+      "size": 32876,
+      "sha256": "e9a12030f9e02fdd4d7d287db17fca2441671dd70a8a49a528902f80950ea6eb"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/robot_console/can_feedback.py",
+      "size": 3141,
+      "sha256": "17650a31c46f0ae67d4759b286e3b4d229df6aa2728beb32d4046b8b205e6cb8"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/robot_console/core.py",
+      "size": 4587,
+      "sha256": "52b6b36f1cc8a64630e8fa4aa544c680eefadd4a4209d2d03de6b39fa876eaf9"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/robot_console/demo.py",
+      "size": 11249,
+      "sha256": "487c92da874d8a1b0307dcc8b1e9a9eb5ecb5b501008d47215db0abdc05c6a85"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/robot_console/rendering.py",
+      "size": 5122,
+      "sha256": "21611dab11aef78385440524d661d5b0b4b47854f7517604211c0a1a479f03e9"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/robot_console/ui.py",
+      "size": 40508,
+      "sha256": "33002b5c56534ea502639a7995f7a57619751e13ad7028e1a86cef3c82cb0bde"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/setup.cfg",
+      "size": 95,
+      "sha256": "72a3563da3b471c228b2f373d010dacc436df86c433988f44a376f9eb14a3bfc"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_console/setup.py",
+      "size": 579,
+      "sha256": "99529302c360a351094f59ac44a07d6bfdabaa266bdef06c56c01c124cbcd560"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/package.xml",
+      "size": 746,
+      "sha256": "e6201698767f154211eb83212170ead7ef6c341583e6a75b7ad7cca632a6596d"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/resource/robot_mission",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/robot_mission/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/robot_mission/core.py",
+      "size": 26811,
+      "sha256": "ee4f706e64684494e86809f32b3ccbfd22e291b78b5a22b09cb8d6240db23ed3"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/robot_mission/exploration.py",
+      "size": 4874,
+      "sha256": "ef6773db02f9fe76298537450af315f7b481968fa744a32615de63c3d9d0c041"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/robot_mission/mapping.py",
+      "size": 3254,
+      "sha256": "1932b1ef64a4398438a919f931e056fc9f51f969e1b990f19a1eaf842091893e"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/robot_mission/node.py",
+      "size": 54271,
+      "sha256": "a1097178f13700cdac8d381bdcef8d4e21ba1de8a68194d7f55a6a816287043c"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/robot_mission/option_b.py",
+      "size": 7951,
+      "sha256": "fc4efdd9ff519e981785f0e19cb393b05dea6efb5394ccdfff945f57bbd7dc05"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/robot_mission/refinement.py",
+      "size": 3963,
+      "sha256": "ae06326723f5655d95dc1d301bd287f296dc328ff9736e71a56af9ccc9ed9302"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/setup.cfg",
+      "size": 95,
+      "sha256": "42b9e5d70a51d5647aaa2fa7d03af34cc110c8e32ddd35b9c9220fdf471a1259"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_mission/setup.py",
+      "size": 556,
+      "sha256": "7d3324c8b0079634a24d17f141f3a4b251147fe3375da0f05b7fbda18024db1f"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/README.txt",
+      "size": 3955,
+      "sha256": "615fbaf0c601916bd3722777966f2579ef7f0b1c24ed5ba408a455d1bf570767"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/config/perception.yaml",
+      "size": 493,
+      "sha256": "009427feaf8f639ce1c4dfd2c7377644d5a7d4b80344befef13a9c46d184394f"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/package.xml",
+      "size": 725,
+      "sha256": "57e79ec9f67d33c21a5efea1f7434ddd809fe716bc42b4b6937e290a9ee545d8"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/resource/robot_perception",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/robot_perception/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/robot_perception/context.py",
+      "size": 2560,
+      "sha256": "e059d1e82138395afc84e67574bdc77e47260ebad8c59085b589564c96bcc63f"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/robot_perception/core.py",
+      "size": 14054,
+      "sha256": "1c8329e31de918f7af9705abfa275f838f70314bd0825729f1fd637e5b10ad44"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/robot_perception/perception_node.py",
+      "size": 18909,
+      "sha256": "3746fc2a3b3ef935ada6b95bdfabe2dc4dc173426f3667f8fbf9a9b078d432f4"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/robot_perception/view_check_node.py",
+      "size": 4667,
+      "sha256": "56c5f0154107f881b2c29429cfba0d8c77bf8aa2c636b48c01a259bbb3c7a721"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/robot_perception/view_protocol.py",
+      "size": 921,
+      "sha256": "51a5ebb1864abfda77f55c6d061868a03b3f9ed90ae8e3542b4ae12c625a1e57"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/robot_perception/vlm_confirm_node.py",
+      "size": 9732,
+      "sha256": "73a55e2e7d93f145fc38ef9109c9bcd354495ca2150cefab2a1f9f349961bba5"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/setup.cfg",
+      "size": 101,
+      "sha256": "93bdc772df4b11eacfc36327742a58fa05c4ec46deeb3f186b4c055cc62107e4"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_perception/setup.py",
+      "size": 895,
+      "sha256": "b3aef676b2c75ba9d900fa146f82ecd27ecfa01346be59362a7c97c6e35bd6c9"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_safety/package.xml",
+      "size": 794,
+      "sha256": "037a0e928414de593056ff75cb800f24d7071195ece9e7e21279244aaf72ebcc"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_safety/resource/robot_safety",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_safety/robot_safety/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_safety/robot_safety/authorization.py",
+      "size": 6755,
+      "sha256": "b1dcf737c9ff62cbd1d36d87eec6cbcaa64d7f90bfb9c4ba1acbf703a21afd85"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_safety/robot_safety/command_guard_node.py",
+      "size": 29159,
+      "sha256": "aee5e44b42d6e181d0557914bba38623eb83c1f4f39159edf33d75442337a401"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_safety/robot_safety/core.py",
+      "size": 23706,
+      "sha256": "de4c110600c8a82024cfd2448d0d5f7e38c468b2b172db882471f607bd95be26"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_safety/setup.cfg",
+      "size": 93,
+      "sha256": "aafd9c39454154ed3afe66b19a2ecf3dbc4904a80b77757993c4fbccf9b542a7"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/src/robot_safety/setup.py",
+      "size": 593,
+      "sha256": "f304108ef7ff646ea45bcf333f111b296eaa0b42612e08adcb0932e9fd2234f0"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_bringup.py",
+      "size": 11582,
+      "sha256": "b497e95f4f19bf69b1ad5849dd389fe63d389bed86c54a71916720568a2e1b0c"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_console_backend.py",
+      "size": 9512,
+      "sha256": "96bcb85d20aead1281308c9207b499931932f622bc3411ffc3aa1883f514050f"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_console_can_helper.py",
+      "size": 6942,
+      "sha256": "0143f3adc923e8b9e85af3b79a77c8cf11f22211aa51e50882b2dbe48fcc99c2"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_console_ui_rendering.py",
+      "size": 13903,
+      "sha256": "471a5c5f4ba7ffe38714aa733a9d1ffe911f9fcceaed2f200d57434063601d7c"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_mission.py",
+      "size": 5236,
+      "sha256": "5da93b1a5eb634dd07d8aa05f0e730c2a0824e7cacb1a06a15bfd7b82221dcfe"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_mission_adapter_safety.py",
+      "size": 11660,
+      "sha256": "785c5a09448edf24f132db2e48b41b5db5f3a5664325e4a33a502017bd73a0b6"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_mission_online.py",
+      "size": 6737,
+      "sha256": "e7b8af4b265c74ab4943c948fe3b64b4fb5be0c556f1954db07e99adf19bbed6"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_mission_online_review.py",
+      "size": 4662,
+      "sha256": "ba5a35b44dfe91cdc4d940971bdf343fec8ae50f72b16c7bbca7e7c1ea6cb9a9"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_mission_runtime.py",
+      "size": 8313,
+      "sha256": "0e59c6e6fa160a40d8d7986e9739d3eadc092208a5faa9dbefcecca4ac54d1d1"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_oneclick_launcher.py",
+      "size": 10576,
+      "sha256": "b3ca83212e66914fa18cf46d7640dd323e0708528b2659e0cd77889481d0717a"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_option_b.py",
+      "size": 8085,
+      "sha256": "2609faa01e307e878639e2727cf5454556265eace7080823eb0ff70e4ff52a94"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_perception_context.py",
+      "size": 6428,
+      "sha256": "201ea494543f9f302930a743616ec68636d1ccfc02c2cfbd340af1f3c21d4db7"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_perception_core.py",
+      "size": 6666,
+      "sha256": "cdcb9e0073111bc7fd5dcc73b619f77fbe896cd127e55b53a983763682bd5c11"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_perception_ros.py",
+      "size": 1541,
+      "sha256": "f29a1185a352b90bf1488d63cce705b6e97b79a2adf530ed877402eedd9cee87"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_robot_credentials_stop.py",
+      "size": 7842,
+      "sha256": "e62d7aadfad5412125dbc37084edb27c026a1c9923f420afa04e0ace9ab29a60"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_safety_authorization.py",
+      "size": 8580,
+      "sha256": "df2684d9b513a5d0a7c13ba493d5ba326d3c70f6ee6d992a87f899339bb8fff4"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_safety_core.py",
+      "size": 8499,
+      "sha256": "bc78a711572c08d0b8b33f15d1e6ccf70f6c4f1122c5cca0a87bc2cc13e68328"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/tests/test_safety_slam.py",
+      "size": 9162,
+      "sha256": "5cca184703fe8be56b382750ec9babf71c7b28858f611ce75dda73c2c7ad50ff"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/README.md",
+      "size": 10678,
+      "sha256": "da0e3da5732c46a771cc6098e7b6d74abd4eb42e23c0d5a2f6c42c132bba5a3a"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/scripts/build.sh",
+      "size": 382,
+      "sha256": "ea81af7be26de6e6fcffaae3b01e8939a55b78bc2541e7a2dc2c7f41b9ff0f52"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/scripts/check_can_decoder.py",
+      "size": 3108,
+      "sha256": "23d4d94a009e15491af90326a41623182d25391741736673f124c1c4440cce05"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/scripts/run_monitor.sh",
+      "size": 143,
+      "sha256": "76a502258daffdc80a517108f40fabbaed1e4d05847239b2bf9d2a7dd7cff720"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/scripts/run_task.sh",
+      "size": 2183,
+      "sha256": "2583599eafd615b781b3cafb5f6c45a71d9ae1418c1c6420cb1a0d2a4236228e"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/scripts/smoke_ros.py",
+      "size": 1470,
+      "sha256": "83d403e52023dedc53c26391ebea5815d51cde2dab4e510808d30bbbaaa3b20d"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/scripts/smoke_window.py",
+      "size": 12851,
+      "sha256": "e682e325e808cae9791497de9401eef27bbe7e9fba2802824cb1bfb7b73f8163"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/can_feedback.py",
+      "size": 3372,
+      "sha256": "72c42ab97e0756948165b52ab33b9307140c27f701011ef1c51e1c0cc96b19d8"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/core.py",
+      "size": 12293,
+      "sha256": "42b491699af47c928e7880f6ffb1ac184e35ad7429a9fe173177a9a6b9decc7c"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/detection.py",
+      "size": 387,
+      "sha256": "c57551947e6280785ff2a95aaac7778ae0a419477b632d72c346afb1f55b0a2d"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/geometry.py",
+      "size": 5285,
+      "sha256": "d70d83e263ec626d6161ce2125c38e6616d230e2ef63bba438d50db133069c18"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/guard.py",
+      "size": 7063,
+      "sha256": "68924821e3f2282b966d1baded0b2c0fd55f1431587e27a0303b74ee36732b6d"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/mission.py",
+      "size": 4589,
+      "sha256": "9c14977822de57de43dfa072df6d10efa5cddd583f04b506806721e9efe82be8"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/perception.py",
+      "size": 13031,
+      "sha256": "5fd2014b0052b7e13949c1e39de62c88c6f29402e0c365b0c9a93147348f1c84"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/ros_utils.py",
+      "size": 2191,
+      "sha256": "9d5a868646cc98b438edbf58f407cc3c37c430e6f697895d0feb7257fcb44147"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/timing.py",
+      "size": 539,
+      "sha256": "56b4f96cbb3f6e941315500ec408b2fcd754f4ca43b1826d3190797929d01caf"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/tracking.py",
+      "size": 1229,
+      "sha256": "9f726d1959cbd759487d4a6e3044108f31de7d5291065bb5bd994b7e6d74befd"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/bunker_rgbd/window_control.py",
+      "size": 5827,
+      "sha256": "62924b51f54fc98cbb22edfc9df8846c8c0d333e0b20af9350231b774c0fc887"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/config/camera.yaml",
+      "size": 522,
+      "sha256": "051168f3c1bbc214a00ba2475d49f543ff2982fcdf444d2527c9135d64787c2c"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/launch/task.launch.py",
+      "size": 4680,
+      "sha256": "aeca291155c4b61f454dbc13666d324a520591e592d7338b7dbfb9ee8d2bdade"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/package.xml",
+      "size": 1025,
+      "sha256": "97556bd9587cb327d3f13abde64997a2858eb177542c107d4d70b9f403374a1b"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/resource/bunker_rgbd",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/setup.cfg",
+      "size": 91,
+      "sha256": "5695a5cfe9717591baf3d3f9f3dbb5638d79218c40340ea0d1764ccff1fe7bd3"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/src/bunker_rgbd/setup.py",
+      "size": 788,
+      "sha256": "a65261fac2b8aa428d594c00b8ac13f09849e9a8a2485d1e534278431f27b8df"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/tests/test_can_feedback.py",
+      "size": 2171,
+      "sha256": "a0074115487e026830e34ab291c5f40cba69d6697d593622a852ccf966f24e69"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/tests/test_core.py",
+      "size": 7764,
+      "sha256": "de4c8688dbd86fe2cefa1be4f3de307a627f4eeb7580018978409c75aba73e06"
+    },
+    {
+      "path": "03_robot/robot_rgbd_ws/tests/test_window_control.py",
+      "size": 3259,
+      "sha256": "2e0409d4efe88dc1ff71c455cef8d94d2546ec0ea1f155d34d48a7c03e66f833"
+    },
+    {
+      "path": "03_robot/yolo-world-agv/README.txt",
+      "size": 3015,
+      "sha256": "5672fad776ea165028ab634ae4cf876a2084f428c26fa4dd59ba146120e62c9e"
+    },
+    {
+      "path": "03_robot/yolo-world-agv/compare_prompts.py",
+      "size": 1331,
+      "sha256": "6896c91dda3206e024f54fb1eac68725d3e63466061d37295149b4b5b7f2c310"
+    },
+    {
+      "path": "03_robot/yolo-world-agv/detect.py",
+      "size": 6714,
+      "sha256": "5009ea3afab0a87ca0a80f8ddaca3172a8b1784aff8b641b938673c1fb57f14b"
+    },
+    {
+      "path": "03_robot/yolo-world-agv/install.sh",
+      "size": 1174,
+      "sha256": "90df09c6712fbe0acdfc5aea965623df4dda4db56885673b3971220fc8822306"
+    },
+    {
+      "path": "03_robot/yolo-world-agv/prepare_model.py",
+      "size": 624,
+      "sha256": "190e19520722c7a67d32b8530af18a8df7e3701787566cd8f2cadc8d0e397533"
+    },
+    {
+      "path": "03_robot/yolo-world-agv/requirements-lock.txt",
+      "size": 751,
+      "sha256": "6f6840e7901d53bf92545634b6f255042c4841611a6e2e124bbc6c8d4db9bc27"
+    },
+    {
+      "path": "03_robot/yolo-world-agv/run.sh",
+      "size": 142,
+      "sha256": "a1fa025f3f49107c444e555e336d809b2ce3c3f1436bb1cbd38493922a9ce34c"
+    },
+    {
+      "path": "04_operations/agv_dependency_setup_20261109/capture_front_reference.py",
+      "size": 5782,
+      "sha256": "5e0569abf8fb6f43059df7f823c6570879a11f52fcca363118b6bbd9813881fc"
+    },
+    {
+      "path": "04_operations/agv_dependency_setup_20261109/geometry_reference.yaml",
+      "size": 4243,
+      "sha256": "54727113c0ea4ae0cfd3c2703e25f5f0f0901f3b8d506c33b1f83f6c5cb89aaf"
+    },
+    {
+      "path": "04_operations/agv_dependency_setup_20261109/install_dependencies.sh",
+      "size": 1032,
+      "sha256": "c890e8de58676a9cf7a9e18416f887a15acf082dc4965076a75772ceb53bc0ab"
+    },
+    {
+      "path": "04_operations/agv_dependency_setup_20261109/live_sensor_view.py",
+      "size": 9204,
+      "sha256": "fcd5ea5f2b7aed20356815ffab26cbd18144da4509088082f1a9b825727391f8"
+    },
+    {
+      "path": "04_operations/agv_dependency_setup_20261109/run_live_view.py",
+      "size": 2182,
+      "sha256": "a1dd1f63568a97ba0ecf0bcdee3d8103d58ebca7956e42a4dd313cac8b8b2809"
+    },
+    {
+      "path": "04_operations/agv_dependency_setup_20261109/verification_20261109_105351/nav_dependency_test.yaml",
+      "size": 10945,
+      "sha256": "a0e02b4056e7f9a6c8fee3624442cb61a916b9986227fc82a7baa4a2c99d1fd3"
+    },
+    {
+      "path": "04_operations/agv_dependency_setup_20261109/verification_20261109_105351/projection_test.yaml",
+      "size": 332,
+      "sha256": "43bff4e8c65e81b35c3260160f8bbe0516fef2b74eb05b5978b5ae92d1a87ff8"
+    },
+    {
+      "path": "04_operations/agv_dependency_setup_20261109/verification_20261109_105351/slam_stationary_test.yaml",
+      "size": 1905,
+      "sha256": "f8649f1d778f63b8eaaaf6f2c5e022a12dd30688ae2a4a5f1a9defceff86c0df"
+    },
+    {
+      "path": "04_operations/agv_dependency_setup_20261109/verification_20261109_105351/synthetic_map.yaml",
+      "size": 133,
+      "sha256": "6f861dc810f5b0e16ec4e424953a4cf2d59018eb87d0b6eb3186b461ab2a5b51"
+    },
+    {
+      "path": "04_operations/agv_dependency_setup_20261109/verify_stationary.py",
+      "size": 16868,
+      "sha256": "ec7a997a78ad757c8d91be86d9f1dcc957b8920661c6f2f64c3264bd504a058b"
+    },
+    {
+      "path": "04_operations/mapping_session_20261109/passive_odom.py",
+      "size": 6544,
+      "sha256": "ed43830f23a928fd1dceafa0350760b33472cb1380c8fab83d82511b7a1f64d9"
+    },
+    {
+      "path": "04_operations/robot_console_20261109/20261109_124407/nav2_test_params.yaml",
+      "size": 6313,
+      "sha256": "aa35853537c6cde1562d656a9a8c0ce5e7d66dcfc1807974c8fbe5a832a886b3"
+    },
+    {
+      "path": "04_operations/robot_main_task_20261109/nav_config/20261109_114344/nav2_test_config.yaml",
+      "size": 7276,
+      "sha256": "8e3501adf8c0d77f509f22ef08e264ff2551963d5cea5fa388a05114566085c7"
+    },
+    {
+      "path": "04_operations/robot_tf_setup_20261109/README.txt",
+      "size": 2874,
+      "sha256": "fc8c0638a812ce276b296e5a950b2fcadd276e0b46d341ad7f74b20af88f89b3"
+    },
+    {
+      "path": "04_operations/robot_tf_setup_20261109/verify_sensor_tf.py",
+      "size": 6941,
+      "sha256": "da5d8dddc86b5e619730d083f02e7d7986aa2499e2ee6a722c49c488be9b111a"
+    }
+  ]
+}

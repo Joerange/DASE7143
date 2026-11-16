@@ -1,0 +1,22 @@
+perception_node:
+  ros__parameters:
+    target_label: trash can
+    device: '0'
+    image_size: 640
+    half: true
+    rgb_topic: /camera/camera/color/image_raw
+    depth_topic: /camera/camera/aligned_depth_to_color/image_raw
+    camera_info_topic: /camera/camera/aligned_depth_to_color/camera_info
+    sync_slop: 0.05
+    max_frame_age: 0.5
+    capture_tf_wait: 0.15
+    depth_scale: 0.001
+    event_window: 0.2
+    min_image_sharpness: 12.0
+vlm_confirm_node:
+  ros__parameters:
+    model: qwen3.8-flash
+    base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+    target_label: trash can
+    request_timeout: 8.0
+# Secrets are exclusively DASHSCOPE_API_KEY / QWEN_API_KEY environment variables.

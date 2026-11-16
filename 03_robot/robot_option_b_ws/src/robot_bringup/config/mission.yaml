@@ -1,0 +1,63 @@
+mission_node:
+  ros__parameters:
+    motion_enabled: false
+    autostart: false
+    target_label: trash can
+    lock_target_on_navigation: false
+    visual_target_refinement: false
+    target_update_interval: 1.0
+    docking_target_gap: 0.60
+    docking_goal_margin: 0.0
+    docking_min_gap: 0.55
+    docking_gap_tolerance: 0.05
+    docking_position_tolerance: 0.02
+    docking_yaw_tolerance: 0.10
+    docking_terminal_zone: 0.45
+    docking_terminal_speed: 0.025
+    navigation_speed_scale: 1.5
+    navigation_max_linear: 0.15
+    exploration_enabled: true
+    mission_timeout: 300.0
+    status_timeout: 0.8
+    odom_timeout: 0.6
+    tf_timeout: 2.8
+    map_timeout: 10.0
+    detector_timeout: 1.5
+    target_timeout: 0.5
+    init_timeout: 60.0
+    recovery_timeout: 60.0
+    plan_timeout: 5.0
+    plan_validity: 10.0
+    goal_timeout: 10.0
+    feedback_timeout: 5.0
+    cancel_timeout: 5.0
+    lifecycle_timeout: 5.0
+    lifecycle_request_timeout: 3.0
+    log_dir: ~/.ros/robot_option_b
+command_guard_node:
+  ros__parameters:
+    localization_mode: slam
+    motion_enabled: false
+    require_depth: true
+    locked_target_navigation: false
+    allow_target_refinement: true
+    min_gap: 0.55
+    docking_stop_gap: 0.55
+    max_linear: 0.15
+    max_angular: 0.30
+    search_sweep_enabled: true
+    navigation_sweep_enabled: true
+    command_timeout: 0.3
+    mission_timeout: 1.5
+    scan_timeout: 0.6
+    depth_timeout: 0.6
+    odom_timeout: 0.6
+    tf_timeout: 0.6
+    map_tf_timeout: 2.8
+    map_timeout: 10.0
+    slam_pose_timeout: 3.5
+    target_timeout: 0.5
+    control_heartbeat_timeout: 1.0
+    chassis_health_timeout: 1.0
+    reaction_time: 0.3
+    localization_timeout: 30.0

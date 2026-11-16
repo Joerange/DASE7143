@@ -1,0 +1,97 @@
+# Reference record only; runtime configuration is in robot_nav_ws/src/robot_bringup/config/sensor_extrinsics.yaml.
+# Source: user-supplied Bunker Mini dimension drawing and measurements, 2026-11-09.
+status: drawing_geometry_and_approximate_extrinsics_accepted_for_lab
+units: metres_and_radians
+robot_model: Bunker_Mini
+body_dimensions:
+  length: 0.690
+  width: 0.570
+  height: 0.335
+drawing_orientation:
+  top_view_front: bottom
+  top_view_rear: top
+  top_view_body_left: right
+  top_view_body_right: left
+measurement_policy: no_further_dimension_measurements_requested_by_user
+base_link_convention:
+  origin: nominal_track_envelope_centre_projected_onto_ground
+  x: forward
+  y: left
+  z: up
+track_front_from_base_link: 0.345
+collision_front_from_base_link: 0.345  # Drawing-based nominal physical front, not padded.
+collision_rear_extent_from_base_link: 0.345
+collision_left_extent_from_base_link: 0.285
+collision_right_extent_from_base_link: 0.285
+body_footprint:
+  - [0.345, 0.285]
+  - [0.345, -0.285]
+  - [-0.345, -0.285]
+  - [-0.345, 0.285]
+nav2_footprint_padding: 0.050  # Chosen planning allowance, not a drawing measurement.
+padded_collision_envelope:
+  length: 0.790
+  width: 0.670
+  x_min: -0.395
+  x_max: 0.395
+  y_min: -0.335
+  y_max: 0.335
+nav2_geometry_config: /home/dase-orinnx/robot_nav_ws/src/robot_bringup/config/nav2_footprint.yaml
+lidar_user_measurements:
+  centre_height_above_ground: 0.600
+  setback_from_track_front_edge_line: 0.220
+  on_body_centreline: true
+lidar_transform_initial:
+  x: 0.125  # 0.690 / 2 - 0.220, assuming longitudinal setback.
+  z: 0.600  # Relative to the chosen ground-level base_link.
+  y: 0.0  # Confirmed by user: on body centreline.
+  roll: 0.0  # Initial level-mount assumption, not measured.
+  pitch: 0.0  # Initial level-mount assumption, not measured.
+  yaw: 1.5707963267948966  # +90 degrees explicitly requested by user.
+  yaw_status: user_selected_fixed_value_supported_by_front_reference
+stationary_test_assumptions:
+  y: 0.0
+  roll: 0.0
+  pitch: 0.0
+  yaw: 0.0
+  frame: audit_base_link
+  purpose: isolated_stationary_dependency_validation_only
+camera_mount_in_base_link:
+  reference_point: approximate_geometric_housing_centre
+  user_height: 0.500
+  user_setback_from_track_front_edge_line: 0.150
+  x: 0.195
+  y: 0.0
+  z: 0.500
+  roll: 0.0  # Initial assumption.
+  pitch: 0.20943951023931956  # 12 degrees down; depth floor fit about 11.8 degrees.
+  yaw: 0.0  # Initial forward-facing assumption.
+  tilt_direction: user_confirmed_downward
+camera_link_in_camera_mount:
+  xyz: [0.00835, 0.0475, 0.0]
+  rpy: [0.0, 0.0, 0.0]
+  source: nominal_D455_case_geometry_and_left_IR_origin
+  status: approximate_not_factory_mount_calibration
+runtime_tf_config: /home/dase-orinnx/robot_nav_ws/src/robot_bringup/config/sensor_extrinsics.yaml
+front_reference_check:
+  user_bin_to_track_front_gap: 0.850
+  predicted_bin_to_lidar_surface: 1.070
+  observed_candidate_direction: negative_laser_y
+  observed_candidate_surface_distance: 1.070626
+  implied_bin_to_track_front_gap: 0.850626
+  centroid_based_yaw_degrees: 88.3963
+  adopted_coarse_yaw_degrees: 90.0
+  mounting_tf_deployed: true
+notes:
+  - Approximate fixed transforms are allowed by Lab2/PROJECT_REQUIREMENTS_AI.md line 72.
+  - Precision calibration is not required before initial implementation.
+  - Test assumptions are not measured mounting orientation.
+  - The earlier dependency-only test used temporary yaw=0; the later front-bin check supports yaw=+90 degrees.
+  - Use the drawing's 0.690 by 0.570 m envelope as the lab collision geometry, per user instruction.
+  - The 0.050 m padding is applied once by Nav2; physical polygon vertices remain unpadded.
+  - The 0.335 m height describes the chassis, not the complete sensor-equipped robot or obstacle-height cutoff.
+  - The 0.125 m forward offset uses the accepted nominal 0.690 m length and centre origin.
+  - The 0.220 m measurement is relative to the foremost track edge line, not the body shell.
+  - The camera internal optical transforms are provided by its driver.
+  - Camera housing centre is distinct from camera_link; the driver origin offset is included separately.
+  - Camera pitch was estimated from a floor ROI; yaw/roll and housing measurement point remain approximate.

@@ -1,0 +1,27 @@
+[Unit]
+Description=Bunker ordinary-user console and control supervisor
+After=network.target user-runtime-dir@1000.service robot-console-can.service
+Requires=user-runtime-dir@1000.service robot-console-can.service
+
+[Service]
+Type=simple
+User=dase-orinnx
+Group=dase-orinnx
+WorkingDirectory=/home/dase-orinnx/robot_nav_ws
+ExecStart=/usr/local/lib/robot-console/run_console.sh
+Environment=ROS_LOCALHOST_ONLY=1
+Environment=ROS_DOMAIN_ID=180
+UMask=0077
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=20
+KillMode=process
+# Never kill an unverified moving driver as a side effect of console restart.
+# The independent guard loses its heartbeat lease; restarted backend sees an external driver.
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ReadWritePaths=/run/user/1000 /home/dase-orinnx/.ros /home/dase-orinnx/robot_nav_ws/mission_logs /home/dase-orinnx/robot_nav_ws/console_exports
+
+[Install]
+WantedBy=multi-user.target
