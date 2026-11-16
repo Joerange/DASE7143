@@ -1,0 +1,6 @@
+{
+  "interface": "can0",
+  "bitrate": 500000,
+  "control_uid": 1000,
+  "control_service": "robot-console.service"
+}

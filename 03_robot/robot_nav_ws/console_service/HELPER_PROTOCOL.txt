@@ -1,0 +1,74 @@
+Privileged CAN helper protocol and trust boundary
+
+Files: can_helper.py (root service), can_client.py (ordinary service client),
+config/can.json (installed root-owned), systemd/*.service, install_services.sh.
+No privileged installation or CAN action is performed by creating these files.
+
+Socket: /run/robot-console/can.sock, root:dase-orinnx 0660 inside0750 directory.
+Peer authorization: Linux SO_PEERCRED UID must equal configured1000 AND PID must
+match systemd MainPID of the fixed robot-console.service. A browser or arbitrary
+same-user desktop process cannot call this socket as the control service.
+The wrapper must exec the final Python backend process; requests cannot come from
+an unrelated subprocess. The local user and ordinary backend implementation are
+trusted authorities. This is not protection against a malicious service owner.
+The UI has no raw helper-operation endpoint and never supplies stop evidence.
+
+The ordinary control backend listens on /run/user/1000/robot-console-control.sock.
+The desktop monitor backend uses /run/user/1000/robot-console.sock. These are
+separate sockets so an existing read-only monitor cannot block control-service
+startup. The desktop launcher prefers the live control socket when available,
+otherwise it connects to the monitor. Connecting does not grant motion authority.
+Both UI-facing sockets are separate from the privileged CAN helper socket above.
+
+JSON-lines request, max4096bytes; each connection handles one request:
+  {"op":"status"}
+  {"op":"enable"}
+  {"op":"prepare_down"}
+  {"op":"commit_down","token":"nonce returned by prepare_down"}
+Unknown or extra fields (including interface, command, stopped) are rejected.
+Duplicate keys and nonfinite JSON are rejected. There is no raw disable operation.
+
+status returns {"ok":true,"can":{interface,admin_up,operstate,bitrate,bus_state,
+configured_bitrate,chassis_communication:"unverified",motion_authorized:false}}.
+InterfaceUP must never be displayed as chassis communication or motion permission.
+enable configures only fixedcan0 at500000bit/s and raises the interface. It never
+starts a driver, grants guard authorization, starts a mission or sends CAN frames.
+AlreadyUP with another bitrate is an error, not implicit down/reconfiguration.
+
+prepare_down does not changeCAN. Returns {ok:true,token,expires_in:8.0,required_sequence}.
+The token is bound to the MainPID plus Linux process starttime and is single-use.
+Before commit, the trusted control service must revoke guard motion, cancel/stop
+mission, verify independent guard-zero and fresh measured stationary feedback,
+then confirm driver termination. If any step is stale/unknown/timed-out, do not
+commit. Report "stop unconfirmed", retain the interlock, and do not claim CANoff.
+The helper cannot independently observe chassis motion; it trusts this installed
+control service protocol, not browser flags. This authority boundary is explicit.
+Request the lease close enough to the controlled shutdown to finish within8s.
+A failed/expired/replayed/wrong-peer commit does not changeCAN and consumes the lease.
+Successful commit runs only fixed `ip link set dev can0 down`, then reads back state.
+No helper shutdown/restart automatically changesCAN or assumes physical stopping.
+
+Client interface: from can_client import Client; Client().call('status') etc.
+Successful calls return the response dict; rejected/unknown state raises RuntimeError.
+The backend must catch failures and preserve UNKNOWN / STOP_UNCONFIRMED status.
+No stdout/stderr from arbitrary commands is exposed; subprocess argv is fixed and
+shell=False. Root config accepts onlycan0/500000, positive controlUID, fixed service.
+
+Installation is a separate authorized step:
+  ./install_services.sh --check
+  sudo ./install_services.sh --install
+--install copies files, creates log directories and reloads systemd unit definitions.
+It never starts/enables the helper, console, CAN or driver. Normal service startup
+runs the ordinary console and root helper only; the console must remain disarmed
+and not start CAN/driver/mission until explicitly requested and allowed.
+Do not install user-supplied helper code without reviewing it first.
+
+Service lifetime and filesystem permissions:
+  robot-console.service writes only its user runtime socket, .ros logs, mission_logs
+  and console_exports under ProtectSystem=strict. user-runtime-dir@1000.service
+  provides /run/user/1000 before the backend starts, without a root HTTP server.
+  KillMode=process deliberately leaves a supervised driver alive if the console
+  dies before a verified stop. The independent guard heartbeat lease then expires.
+  A restarted backend reports that driver as external, never starts a duplicate,
+  and cannot claim ownership or automatically cut CAN. Explicit controlled recovery
+  is required; this is not a substitute for the hardware communication watchdog.

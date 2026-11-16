@@ -1767,6 +1767,11 @@
       "sha256": "253500418b5aad984386b02f6253492047f8203037e61c2aa0dc0b71b3ab72f0"
     },
     {
+      "path": "03_robot/robot_nav_ws/console_service/HELPER_PROTOCOL.txt",
+      "size": 4869,
+      "sha256": "f43aaf0f08d3ff19f5a2f4730956cf7ca6828d714804e5606e03dd1983091322"
+    },
+    {
       "path": "03_robot/robot_nav_ws/console_service/can_client.py",
       "size": 1339,
       "sha256": "715668236658f3c6d456796762f6c952394643444ff938aa945d92ebddeea21b"
@@ -1775,6 +1780,11 @@
       "path": "03_robot/robot_nav_ws/console_service/can_helper.py",
       "size": 9343,
       "sha256": "fbe72c3dc0b98c3f76c1719f32837114128648a242e7fb849163ac7c883c3162"
+    },
+    {
+      "path": "03_robot/robot_nav_ws/console_service/config/can.json",
+      "size": 116,
+      "sha256": "f66765a51897b14253326a7cd0a0565338b8a0047323217a073e6a5133630886"
     },
     {
       "path": "03_robot/robot_nav_ws/console_service/config/session.sudoers",
@@ -2237,6 +2247,11 @@
       "sha256": "1c2ece0de8a3e12e9328526db3d857966c7c7dea4b175a5e9bbb04c7cd8ea4ae"
     },
     {
+      "path": "03_robot/robot_option_b_ws/console_service/HELPER_PROTOCOL.txt",
+      "size": 4869,
+      "sha256": "f43aaf0f08d3ff19f5a2f4730956cf7ca6828d714804e5606e03dd1983091322"
+    },
+    {
       "path": "03_robot/robot_option_b_ws/console_service/can_client.py",
       "size": 1339,
       "sha256": "715668236658f3c6d456796762f6c952394643444ff938aa945d92ebddeea21b"
@@ -2245,6 +2260,11 @@
       "path": "03_robot/robot_option_b_ws/console_service/can_helper.py",
       "size": 9343,
       "sha256": "fbe72c3dc0b98c3f76c1719f32837114128648a242e7fb849163ac7c883c3162"
+    },
+    {
+      "path": "03_robot/robot_option_b_ws/console_service/config/can.json",
+      "size": 116,
+      "sha256": "f66765a51897b14253326a7cd0a0565338b8a0047323217a073e6a5133630886"
     },
     {
       "path": "03_robot/robot_option_b_ws/console_service/config/session.sudoers",
@@ -2727,6 +2747,11 @@
       "sha256": "5cca184703fe8be56b382750ec9babf71c7b28858f611ce75dda73c2c7ad50ff"
     },
     {
+      "path": "03_robot/robot_option_b_ws/trials/template.json",
+      "size": 310,
+      "sha256": "786145f08d04c25a4d048122241eaad701acfc324c31efd4adf0aee69d553fb4"
+    },
+    {
       "path": "03_robot/robot_rgbd_ws/README.md",
       "size": 10678,
       "sha256": "da0e3da5732c46a771cc6098e7b6d74abd4eb42e23c0d5a2f6c42c132bba5a3a"
@@ -2885,6 +2910,11 @@
       "path": "03_robot/yolo-world-agv/install.sh",
       "size": 1174,
       "sha256": "90df09c6712fbe0acdfc5aea965623df4dda4db56885673b3971220fc8822306"
+    },
+    {
+      "path": "03_robot/yolo-world-agv/model-sha256.txt",
+      "size": 190,
+      "sha256": "d6ef6e77af32b1848bd694edc042f23d3f9cb99fad7a10f412a1413034cb8adc"
     },
     {
       "path": "03_robot/yolo-world-agv/prepare_model.py",

@@ -1,0 +1,2 @@
+9b2c17ab6124a913e9b3a5c170617920d91b0f01111a8479da69f00e2cf27792  models/yolov8s-worldv2.pt
+0238b23ae09e2e62f675b7e848587d7aaba1100b04fcd33b3daae0a7b7642278  models/yolov8s-worldv2-trash.pt

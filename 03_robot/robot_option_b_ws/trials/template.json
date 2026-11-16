@@ -1,0 +1,15 @@
+{
+  "trial_id": "",
+  "target_label": "",
+  "target_present": null,
+  "code_version": "",
+  "start_pose": null,
+  "scene_layout": "",
+  "baseline_result": "",
+  "enhanced_result": "",
+  "measured_front_gap_m": null,
+  "contact_events": null,
+  "emergency_stop_events": null,
+  "video": "",
+  "event_log": ""
+}
